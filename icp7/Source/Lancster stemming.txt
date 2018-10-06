@@ -1,0 +1,1818 @@
+Lancaster Stemming : 
+ ['python', '(', 'programming', 'language', ')', 'from', 'wikipedia', ',', 'the', 'free', 'encyclopedia', 'jump', 'to', 'navigation', 'jump', 'to', 'search', 'python', 'paradigm', 'object-oriented', ',', 'imperative', ',', 'functional', ',', 'procedural', ',', 'reflectivedesigned', 'by', 'guido', 'van', 'rossumdeveloper', 'python', 'software', 'foundationfirst', 'appeared', '1990', ';', '28', 'years', 'ago', '(', '1990', ')', '[', '1', ']', 'stable', 'release', '3.7.0', '/', '27', 'june', '2018', ';', '3', 'months', 'ago', '(', '2018-06-27', ')', '[', '2', ']', '2.7.15', '/', '1', 'may', '2018', ';', '5', 'months', 'ago', '(', '2018-05-01', ')', '[', '3', ']', 'typing', 'discipline', 'duck', ',', 'dynamic', ',', 'strong', 'since', 'version', '3.5', ':', 'gradual', '[', '4', ']', 'license', 'python', 'software', 'foundation', 'licensefilename', 'extensions', '.py', ',', '.pyc', ',', '.pyd', ',', '.pyo', '(', 'prior', 'to', '3.5', ')', ',', '[', '5', ']', '.pyw', ',', '.pyz', '(', 'since', '3.5', ')', '[', '6', ']', 'website', 'www.python.orgmajor', 'implementations', 'cpython', ',', 'ironpython', ',', 'jython', ',', 'micropython', ',', 'numba', ',', 'pypy', ',', 'stackless', 'pythondialects', 'cython', ',', 'rpythoninfluenced', 'by', 'abc', ',', '[', '7', ']', 'algol', '68', ',', '[', '8', ']', 'apl', '[', '9', ']', 'c', ',', '[', '10', ']', 'c++', ',', '[', '11', ']', 'clu', ',', '[', '12', ']', 'dylan', ',', '[', '13', ']', 'haskell', ',', '[', '14', ']', 'icon', ',', '[', '15', ']', 'java', ',', '[', '16', ']', 'lisp', ',', '[', '17', ']', 'modula-3', ',', '[', '11', ']', 'perl', ',', 'standard', 'ml', '[', '18', ']', 'influenced', 'boo', ',', 'cobra', ',', 'coffeescript', ',', '[', '19', ']', 'd', ',', 'f', '#', ',', 'falcon', ',', 'genie', ',', '[', '20', ']', 'go', ',', 'apache', 'groovy', ',', 'javascript', ',', '[', '21', ']', '[', '22', ']', 'julia', ',', '[', '23', ']', 'nim', ',', 'ring', ',', '[', '24', ']', 'ruby', ',', '[', '25', ']', 'swift', '[', '26', ']', 'python', 'programming', 'at', 'wikibooks', 'python', 'is', 'an', 'interpreted', 'high-level', 'programming', 'language', 'for', 'general-purpose', 'programming', '.']
+Lancaster Stemming : 
+ ['created', 'by', 'guido', 'van', 'rossum', 'and', 'first', 'released', 'in', '1991', ',', 'python', 'has', 'a', 'design', 'philosophy', 'that', 'emphasizes', 'code', 'readability', ',', 'notably', 'using', 'significant', 'whitespace', '.']
+Lancaster Stemming : 
+ ['it', 'provides', 'constructs', 'that', 'enable', 'clear', 'programming', 'on', 'both', 'small', 'and', 'large', 'scales', '.']
+Lancaster Stemming : 
+ ['[', '27', ']', 'in', 'july', '2018', ',', 'van', 'rossum', 'stepped', 'down', 'as', 'the', 'leader', 'in', 'the', 'language', 'community', 'after', '30', 'years', '.']
+Lancaster Stemming : 
+ ['[', '28', ']', '[', '29', ']', 'python', 'features', 'a', 'dynamic', 'type', 'system', 'and', 'automatic', 'memory', 'management', '.']
+Lancaster Stemming : 
+ ['it', 'supports', 'multiple', 'programming', 'paradigms', ',', 'including', 'object-oriented', ',', 'imperative', ',', 'functional', 'and', 'procedural', ',', 'and', 'has', 'a', 'large', 'and', 'comprehensive', 'standard', 'library', '.']
+Lancaster Stemming : 
+ ['[', '30', ']', 'python', 'interpreters', 'are', 'available', 'for', 'many', 'operating', 'systems', '.']
+Lancaster Stemming : 
+ ['cpython', ',', 'the', 'reference', 'implementation', 'of', 'python', ',', 'is', 'open', 'source', 'software', '[', '31', ']', 'and', 'has', 'a', 'community-based', 'development', 'model', ',', 'as', 'do', 'nearly', 'all', 'of', 'python', "'s", 'other', 'implementations', '.']
+Lancaster Stemming : 
+ ['python', 'and', 'cpython', 'are', 'managed', 'by', 'the', 'non-profit', 'python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['contents', '1', 'history', '2', 'features', 'and', 'philosophy', '3', 'syntax', 'and', 'semantics', '3.1', 'indentation', '3.2', 'statements', 'and', 'control', 'flow', '3.3', 'expressions', '3.4', 'methods', '3.5', 'typing', '3.6', 'mathematics', '4', 'libraries', '4.1', 'terminology', ':', 'modules', 'and', 'packages', '5', 'development', 'environments', '6', 'implementations', '6.1', 'reference', 'implementation', '6.2', 'other', 'implementations', '6.3', 'unsupported', 'implementations', '6.4', 'cross-compilers', 'to', 'other', 'languages', '6.5', 'performance', '7', 'development', '8', 'naming', '9', 'api', 'documentation', 'generators', '10', 'uses', '11', 'languages', 'influenced', 'by', 'python', '12', 'see', 'also', '13', 'references', '14', 'further', 'reading', '15', 'external', 'links', 'history', 'guido', 'van', 'rossum', ',', 'the', 'creator', 'of', 'python', 'main', 'article', ':', 'history', 'of', 'python', 'python', 'was', 'conceived', 'in', 'the', 'late', '1980s', ',', '[', '32', ']', 'and', 'its', 'implementation', 'began', 'in', 'december', '1989', '[', '33', ']', 'by', 'guido', 'van', 'rossum', 'at', 'centrum', 'wiskunde', '&', 'informatica', '(', 'cwi', ')', 'in', 'the', 'netherlands', 'as', 'a', 'successor', 'to', 'the', 'abc', 'language', '(', 'itself', 'inspired', 'by', 'setl', ')', '[', '34', ']', 'capable', 'of', 'exception', 'handling', 'and', 'interfacing', 'with', 'the', 'amoeba', 'operating', 'system', '.']
+Lancaster Stemming : 
+ ['[', '7', ']', 'van', 'rossum', 'remains', 'python', "'s", 'principal', 'author', '.']
+Lancaster Stemming : 
+ ['his', 'continuing', 'central', 'role', 'in', 'python', "'s", 'development', 'is', 'reflected', 'in', 'the', 'title', 'given', 'to', 'him', 'by', 'the', 'python', 'community', ':', 'benevolent', 'dictator', 'for', 'life', '(', 'bdfl', ')', '–', 'a', 'post', 'from', 'which', 'he', 'gave', 'himself', 'permanent', 'vacation', 'on', 'july', '12', ',', '2018', '.']
+Lancaster Stemming : 
+ ['[', '35', ']', 'on', 'the', 'origins', 'of', 'python', ',', 'van', 'rossum', 'wrote', 'in', '1996', ':', '[', '36', ']', '...', 'in', 'december', '1989', ',', 'i', 'was', 'looking', 'for', 'a', '``', 'hobby', "''", 'programming', 'project', 'that', 'would', 'keep', 'me', 'occupied', 'during', 'the', 'week', 'around', 'christmas', '.']
+Lancaster Stemming : 
+ ['my', 'office', '...', 'would', 'be', 'closed', ',', 'but', 'i', 'had', 'a', 'home', 'computer', ',', 'and', 'not', 'much', 'else', 'on', 'my', 'hands', '.']
+Lancaster Stemming : 
+ ['i', 'decided', 'to', 'write', 'an', 'interpreter', 'for', 'the', 'new', 'scripting', 'language', 'i', 'had', 'been', 'thinking', 'about', 'lately', ':', 'a', 'descendant', 'of', 'abc', 'that', 'would', 'appeal', 'to', 'unix/c', 'hackers', '.']
+Lancaster Stemming : 
+ ['i', 'chose', 'python', 'as', 'a', 'working', 'title', 'for', 'the', 'project', ',', 'being', 'in', 'a', 'slightly', 'irreverent', 'mood', '(', 'and', 'a', 'big', 'fan', 'of', 'monty', 'python', "'s", 'flying', 'circus', ')', '.']
+Lancaster Stemming : 
+ ['—', 'guido', 'van', 'rossum', 'python', '2.0', 'was', 'released', 'on', '16', 'october', '2000', 'and', 'had', 'many', 'major', 'new', 'features', ',', 'including', 'a', 'cycle-detecting', 'garbage', 'collector', 'and', 'support', 'for', 'unicode', '.']
+Lancaster Stemming : 
+ ['with', 'this', 'release', ',', 'the', 'development', 'process', 'became', 'more', 'transparent', 'and', 'community-backed', '.']
+Lancaster Stemming : 
+ ['[', '37', ']', 'python', '3.0', '(', 'initially', 'called', 'python', '3000', 'or', 'py3k', ')', 'was', 'released', 'on', '3', 'december', '2008', 'after', 'a', 'long', 'testing', 'period', '.']
+Lancaster Stemming : 
+ ['it', 'is', 'a', 'major', 'revision', 'of', 'the', 'language', 'that', 'is', 'not', 'completely', 'backward-compatible', 'with', 'previous', 'versions', '.']
+Lancaster Stemming : 
+ ['[', '38', ']', 'however', ',', 'many', 'of', 'its', 'major', 'features', 'have', 'been', 'backported', 'to', 'the', 'python', '2.6.x', '[', '39', ']', 'and', '2.7.x', 'version', 'series', ',', 'and', 'releases', 'of', 'python', '3', 'include', 'the', '2to3', 'utility', ',', 'which', 'automates', 'the', 'translation', 'of', 'python', '2', 'code', 'to', 'python', '3', '.']
+Lancaster Stemming : 
+ ['[', '40', ']', 'python', '2.7', "'s", 'end-of-life', 'date', 'was', 'initially', 'set', 'at', '2015', ',', 'then', 'postponed', 'to', '2020', 'out', 'of', 'concern', 'that', 'a', 'large', 'body', 'of', 'existing', 'code', 'could', 'not', 'easily', 'be', 'forward-ported', 'to', 'python', '3', '.']
+Lancaster Stemming : 
+ ['[', '41', ']', '[', '42', ']', 'in', 'january', '2017', ',', 'google', 'announced', 'work', 'on', 'a', 'python', '2.7', 'to', 'go', 'transcompiler', 'to', 'improve', 'performance', 'under', 'concurrent', 'workloads', '.']
+Lancaster Stemming : 
+ ['[', '43', ']', 'features', 'and', 'philosophy', 'python', 'is', 'a', 'multi-paradigm', 'programming', 'language', '.']
+Lancaster Stemming : 
+ ['object-oriented', 'programming', 'and', 'structured', 'programming', 'are', 'fully', 'supported', ',', 'and', 'many', 'of', 'its', 'features', 'support', 'functional', 'programming', 'and', 'aspect-oriented', 'programming', '(', 'including', 'by', 'metaprogramming', '[', '44', ']', 'and', 'metaobjects', '(', 'magic', 'methods', ')', ')', '.']
+Lancaster Stemming : 
+ ['[', '45', ']', 'many', 'other', 'paradigms', 'are', 'supported', 'via', 'extensions', ',', 'including', 'design', 'by', 'contract', '[', '46', ']', '[', '47', ']', 'and', 'logic', 'programming', '.']
+Lancaster Stemming : 
+ ['[', '48', ']', 'python', 'uses', 'dynamic', 'typing', ',', 'and', 'a', 'combination', 'of', 'reference', 'counting', 'and', 'a', 'cycle-detecting', 'garbage', 'collector', 'for', 'memory', 'management', '.']
+Lancaster Stemming : 
+ ['it', 'also', 'features', 'dynamic', 'name', 'resolution', '(', 'late', 'binding', ')', ',', 'which', 'binds', 'method', 'and', 'variable', 'names', 'during', 'program', 'execution', '.']
+Lancaster Stemming : 
+ ['python', "'s", 'design', 'offers', 'some', 'support', 'for', 'functional', 'programming', 'in', 'the', 'lisp', 'tradition', '.']
+Lancaster Stemming : 
+ ['it', 'has', 'filter', '(', ')', ',', 'map', '(', ')', ',', 'and', 'reduce', '(', ')', 'functions', ';', 'list', 'comprehensions', ',', 'dictionaries', ',', 'and', 'sets', ';', 'and', 'generator', 'expressions', '.']
+Lancaster Stemming : 
+ ['[', '49', ']', 'the', 'standard', 'library', 'has', 'two', 'modules', '(', 'itertools', 'and', 'functools', ')', 'that', 'implement', 'functional', 'tools', 'borrowed', 'from', 'haskell', 'and', 'standard', 'ml', '.']
+Lancaster Stemming : 
+ ['[', '50', ']', 'the', 'language', "'s", 'core', 'philosophy', 'is', 'summarized', 'in', 'the', 'document', 'the', 'zen', 'of', 'python', '(', 'pep', '20', ')', ',', 'which', 'includes', 'aphorisms', 'such', 'as', ':', '[', '51', ']', 'beautiful', 'is', 'better', 'than', 'ugly', 'explicit', 'is', 'better', 'than', 'implicit', 'simple', 'is', 'better', 'than', 'complex', 'complex', 'is', 'better', 'than', 'complicated', 'readability', 'counts', 'rather', 'than', 'having', 'all', 'of', 'its', 'functionality', 'built', 'into', 'its', 'core', ',', 'python', 'was', 'designed', 'to', 'be', 'highly', 'extensible', '.']
+Lancaster Stemming : 
+ ['this', 'compact', 'modularity', 'has', 'made', 'it', 'particularly', 'popular', 'as', 'a', 'means', 'of', 'adding', 'programmable', 'interfaces', 'to', 'existing', 'applications', '.']
+Lancaster Stemming : 
+ ['van', 'rossum', "'s", 'vision', 'of', 'a', 'small', 'core', 'language', 'with', 'a', 'large', 'standard', 'library', 'and', 'easily', 'extensible', 'interpreter', 'stemmed', 'from', 'his', 'frustrations', 'with', 'abc', ',', 'which', 'espoused', 'the', 'opposite', 'approach', '.']
+Lancaster Stemming : 
+ ['[', '32', ']', 'while', 'offering', 'choice', 'in', 'coding', 'methodology', ',', 'the', 'python', 'philosophy', 'rejects', 'exuberant', 'syntax', '(', 'such', 'as', 'that', 'of', 'perl', ')', 'in', 'favor', 'of', 'a', 'simpler', ',', 'less-cluttered', 'grammar', '.']
+Lancaster Stemming : 
+ ['as', 'alex', 'martelli', 'put', 'it', ':', '``', 'to', 'describe', 'something', 'as', "'clever", "'", 'is', 'not', 'considered', 'a', 'compliment', 'in', 'the', 'python', 'culture', '.']
+Lancaster Stemming : 
+ ['``', '[', '52', ']', 'python', "'s", 'philosophy', 'rejects', 'the', 'perl', '``', 'there', 'is', 'more', 'than', 'one', 'way', 'to', 'do', 'it', "''", 'approach', 'to', 'language', 'design', 'in', 'favor', 'of', '``', 'there', 'should', 'be', 'one—and', 'preferably', 'only', 'one—obvious', 'way', 'to', 'do', 'it', "''", '.']
+Lancaster Stemming : 
+ ['[', '51', ']', 'python', "'s", 'developers', 'strive', 'to', 'avoid', 'premature', 'optimization', ',', 'and', 'reject', 'patches', 'to', 'non-critical', 'parts', 'of', 'cpython', 'that', 'would', 'offer', 'marginal', 'increases', 'in', 'speed', 'at', 'the', 'cost', 'of', 'clarity', '.']
+Lancaster Stemming : 
+ ['[', '53', ']', 'when', 'speed', 'is', 'important', ',', 'a', 'python', 'programmer', 'can', 'move', 'time-critical', 'functions', 'to', 'extension', 'modules', 'written', 'in', 'languages', 'such', 'as', 'c', ',', 'or', 'use', 'pypy', ',', 'a', 'just-in-time', 'compiler', '.']
+Lancaster Stemming : 
+ ['cython', 'is', 'also', 'available', ',', 'which', 'translates', 'a', 'python', 'script', 'into', 'c', 'and', 'makes', 'direct', 'c-level', 'api', 'calls', 'into', 'the', 'python', 'interpreter', '.']
+Lancaster Stemming : 
+ ['an', 'important', 'goal', 'of', 'python', "'s", 'developers', 'is', 'keeping', 'it', 'fun', 'to', 'use', '.']
+Lancaster Stemming : 
+ ['this', 'is', 'reflected', 'in', 'the', 'language', "'s", 'name—a', 'tribute', 'to', 'the', 'british', 'comedy', 'group', 'monty', 'python', '[', '54', ']', '—and', 'in', 'occasionally', 'playful', 'approaches', 'to', 'tutorials', 'and', 'reference', 'materials', ',', 'such', 'as', 'examples', 'that', 'refer', 'to', 'spam', 'and', 'eggs', '(', 'from', 'a', 'famous', 'monty', 'python', 'sketch', ')', 'instead', 'of', 'the', 'standard', 'foo', 'and', 'bar', '.']
+Lancaster Stemming : 
+ ['[', '55', ']', '[', '56', ']', 'a', 'common', 'neologism', 'in', 'the', 'python', 'community', 'is', 'pythonic', ',', 'which', 'can', 'have', 'a', 'wide', 'range', 'of', 'meanings', 'related', 'to', 'program', 'style', '.']
+Lancaster Stemming : 
+ ['to', 'say', 'that', 'code', 'is', 'pythonic', 'is', 'to', 'say', 'that', 'it', 'uses', 'python', 'idioms', 'well', ',', 'that', 'it', 'is', 'natural', 'or', 'shows', 'fluency', 'in', 'the', 'language', ',', 'that', 'it', 'conforms', 'with', 'python', "'s", 'minimalist', 'philosophy', 'and', 'emphasis', 'on', 'readability', '.']
+Lancaster Stemming : 
+ ['in', 'contrast', ',', 'code', 'that', 'is', 'difficult', 'to', 'understand', 'or', 'reads', 'like', 'a', 'rough', 'transcription', 'from', 'another', 'programming', 'language', 'is', 'called', 'unpythonic', '.']
+Lancaster Stemming : 
+ ['users', 'and', 'admirers', 'of', 'python', ',', 'especially', 'those', 'considered', 'knowledgeable', 'or', 'experienced', ',', 'are', 'often', 'referred', 'to', 'as', 'pythonists', ',', 'pythonistas', ',', 'and', 'pythoneers', '.']
+Lancaster Stemming : 
+ ['[', '57', ']', '[', '58', ']', 'syntax', 'and', 'semantics', 'main', 'article', ':', 'python', 'syntax', 'and', 'semantics', 'python', 'is', 'meant', 'to', 'be', 'an', 'easily', 'readable', 'language', '.']
+Lancaster Stemming : 
+ ['its', 'formatting', 'is', 'visually', 'uncluttered', ',', 'and', 'it', 'often', 'uses', 'english', 'keywords', 'where', 'other', 'languages', 'use', 'punctuation', '.']
+Lancaster Stemming : 
+ ['unlike', 'many', 'other', 'languages', ',', 'it', 'does', 'not', 'use', 'curly', 'brackets', 'to', 'delimit', 'blocks', ',', 'and', 'semicolons', 'after', 'statements', 'are', 'optional', '.']
+Lancaster Stemming : 
+ ['it', 'has', 'fewer', 'syntactic', 'exceptions', 'and', 'special', 'cases', 'than', 'c', 'or', 'pascal', '.']
+Lancaster Stemming : 
+ ['[', '59', ']', 'indentation', 'main', 'article', ':', 'python', 'syntax', 'and', 'semantics', '§', 'indentation', 'python', 'uses', 'whitespace', 'indentation', ',', 'rather', 'than', 'curly', 'brackets', 'or', 'keywords', ',', 'to', 'delimit', 'blocks', '.']
+Lancaster Stemming : 
+ ['an', 'increase', 'in', 'indentation', 'comes', 'after', 'certain', 'statements', ';', 'a', 'decrease', 'in', 'indentation', 'signifies', 'the', 'end', 'of', 'the', 'current', 'block', '.']
+Lancaster Stemming : 
+ ['[', '60', ']', 'thus', ',', 'the', 'program', "'s", 'visual', 'structure', 'accurately', 'represents', 'the', 'program', "'s", 'semantic', 'structure', '.']
+Lancaster Stemming : 
+ ['[', '1', ']', 'this', 'feature', 'is', 'also', 'sometimes', 'termed', 'the', 'off-side', 'rule', '.']
+Lancaster Stemming : 
+ ['statements', 'and', 'control', 'flow', 'python', "'s", 'statements', 'include', '(', 'among', 'others', ')', ':', 'the', 'assignment', 'statement', '(', 'token', "'=", "'", ',', 'the', 'equals', 'sign', ')', '.']
+Lancaster Stemming : 
+ ['this', 'operates', 'differently', 'than', 'in', 'traditional', 'imperative', 'programming', 'languages', ',', 'and', 'this', 'fundamental', 'mechanism', '(', 'including', 'the', 'nature', 'of', 'python', "'s", 'version', 'of', 'variables', ')', 'illuminates', 'many', 'other', 'features', 'of', 'the', 'language', '.']
+Lancaster Stemming : 
+ ['assignment', 'in', 'c', ',', 'e.g.', ',', 'x', '=', '2', ',', 'translates', 'to', '``', 'typed', 'variable', 'name', 'x', 'receives', 'a', 'copy', 'of', 'numeric', 'value', '2', "''", '.']
+Lancaster Stemming : 
+ ['the', '(', 'right-hand', ')', 'value', 'is', 'copied', 'into', 'an', 'allocated', 'storage', 'location', 'for', 'which', 'the', '(', 'left-hand', ')', 'variable', 'name', 'is', 'the', 'symbolic', 'address', '.']
+Lancaster Stemming : 
+ ['the', 'memory', 'allocated', 'to', 'the', 'variable', 'is', 'large', 'enough', '(', 'potentially', 'quite', 'large', ')', 'for', 'the', 'declared', 'type', '.']
+Lancaster Stemming : 
+ ['in', 'the', 'simplest', 'case', 'of', 'python', 'assignment', ',', 'using', 'the', 'same', 'example', ',', 'x', '=', '2', ',', 'translates', 'to', '``', '(', 'generic', ')', 'name', 'x', 'receives', 'a', 'reference', 'to', 'a', 'separate', ',', 'dynamically', 'allocated', 'object', 'of', 'numeric', '(', 'int', ')', 'type', 'of', 'value', '2', '.', "''"]
+Lancaster Stemming : 
+ ['this', 'is', 'termed', 'binding', 'the', 'name', 'to', 'the', 'object', '.']
+Lancaster Stemming : 
+ ['since', 'the', 'name', "'s", 'storage', 'location', 'does', "n't", 'contain', 'the', 'indicated', 'value', ',', 'it', 'is', 'improper', 'to', 'call', 'it', 'a', 'variable', '.']
+Lancaster Stemming : 
+ ['names', 'may', 'be', 'subsequently', 'rebound', 'at', 'any', 'time', 'to', 'objects', 'of', 'greatly', 'varying', 'types', ',', 'including', 'strings', ',', 'procedures', ',', 'complex', 'objects', 'with', 'data', 'and', 'methods', ',', 'etc', '.']
+Lancaster Stemming : 
+ ['successive', 'assignments', 'of', 'a', 'common', 'value', 'to', 'multiple', 'names', ',', 'e.g.', ',', 'x', '=', '2', ';', 'y', '=', '2', ';', 'z', '=', '2', 'result', 'in', 'allocating', 'storage', 'to', '(', 'at', 'most', ')', 'three', 'names', 'and', 'one', 'numeric', 'object', ',', 'to', 'which', 'all', 'three', 'names', 'are', 'bound', '.']
+Lancaster Stemming : 
+ ['since', 'a', 'name', 'is', 'a', 'generic', 'reference', 'holder', 'it', 'is', 'unreasonable', 'to', 'associate', 'a', 'fixed', 'data', 'type', 'with', 'it', '.']
+Lancaster Stemming : 
+ ['however', 'at', 'a', 'given', 'time', 'a', 'name', 'will', 'be', 'bound', 'to', 'some', 'object', ',', 'which', 'will', 'have', 'a', 'type', ';', 'thus', 'there', 'is', 'dynamic', 'typing', '.']
+Lancaster Stemming : 
+ ['the', 'if', 'statement', ',', 'which', 'conditionally', 'executes', 'a', 'block', 'of', 'code', ',', 'along', 'with', 'else', 'and', 'elif', '(', 'a', 'contraction', 'of', 'else-if', ')', '.']
+Lancaster Stemming : 
+ ['the', 'for', 'statement', ',', 'which', 'iterates', 'over', 'an', 'iterable', 'object', ',', 'capturing', 'each', 'element', 'to', 'a', 'local', 'variable', 'for', 'use', 'by', 'the', 'attached', 'block', '.']
+Lancaster Stemming : 
+ ['the', 'while', 'statement', ',', 'which', 'executes', 'a', 'block', 'of', 'code', 'as', 'long', 'as', 'its', 'condition', 'is', 'true', '.']
+Lancaster Stemming : 
+ ['the', 'try', 'statement', ',', 'which', 'allows', 'exceptions', 'raised', 'in', 'its', 'attached', 'code', 'block', 'to', 'be', 'caught', 'and', 'handled', 'by', 'except', 'clauses', ';', 'it', 'also', 'ensures', 'that', 'clean-up', 'code', 'in', 'a', 'finally', 'block', 'will', 'always', 'be', 'run', 'regardless', 'of', 'how', 'the', 'block', 'exits', '.']
+Lancaster Stemming : 
+ ['the', 'raise', 'statement', ',', 'used', 'to', 'raise', 'a', 'specified', 'exception', 'or', 're-raise', 'a', 'caught', 'exception', '.']
+Lancaster Stemming : 
+ ['the', 'class', 'statement', ',', 'which', 'executes', 'a', 'block', 'of', 'code', 'and', 'attaches', 'its', 'local', 'namespace', 'to', 'a', 'class', ',', 'for', 'use', 'in', 'object-oriented', 'programming', '.']
+Lancaster Stemming : 
+ ['the', 'def', 'statement', ',', 'which', 'defines', 'a', 'function', 'or', 'method', '.']
+Lancaster Stemming : 
+ ['the', 'with', 'statement', ',', 'from', 'python', '2.5', 'released', 'on', 'september', '2006', ',', '[', '61', ']', 'which', 'encloses', 'a', 'code', 'block', 'within', 'a', 'context', 'manager', '(', 'for', 'example', ',', 'acquiring', 'a', 'lock', 'before', 'the', 'block', 'of', 'code', 'is', 'run', 'and', 'releasing', 'the', 'lock', 'afterwards', ',', 'or', 'opening', 'a', 'file', 'and', 'then', 'closing', 'it', ')', ',', 'allowing', 'resource', 'acquisition', 'is', 'initialization', '(', 'raii', ')', '-like', 'behavior', 'and', 'replaces', 'a', 'common', 'try/finally', 'idiom', '.']
+Lancaster Stemming : 
+ ['[', '62', ']', 'the', 'pass', 'statement', ',', 'which', 'serves', 'as', 'a', 'nop', '.']
+Lancaster Stemming : 
+ ['it', 'is', 'syntactically', 'needed', 'to', 'create', 'an', 'empty', 'code', 'block', '.']
+Lancaster Stemming : 
+ ['the', 'assert', 'statement', ',', 'used', 'during', 'debugging', 'to', 'check', 'for', 'conditions', 'that', 'ought', 'to', 'apply', '.']
+Lancaster Stemming : 
+ ['the', 'yield', 'statement', ',', 'which', 'returns', 'a', 'value', 'from', 'a', 'generator', 'function', '.']
+Lancaster Stemming : 
+ ['from', 'python', '2.5', ',', 'yield', 'is', 'also', 'an', 'operator', '.']
+Lancaster Stemming : 
+ ['this', 'form', 'is', 'used', 'to', 'implement', 'coroutines', '.']
+Lancaster Stemming : 
+ ['the', 'import', 'statement', ',', 'which', 'is', 'used', 'to', 'import', 'modules', 'whose', 'functions', 'or', 'variables', 'can', 'be', 'used', 'in', 'the', 'current', 'program', '.']
+Lancaster Stemming : 
+ ['there', 'are', 'three', 'ways', 'of', 'using', 'import', ':', 'import', '<', 'module', 'name', '>', '[', 'as', '<', 'alias', '>', ']', 'or', 'from', '<', 'module', 'name', '>', 'import', '*', 'or', 'from', '<', 'module', 'name', '>', 'import', '<', 'definition', '1', '>', '[', 'as', '<', 'alias', '1', '>', ']', ',', '<', 'definition', '2', '>', '[', 'as', '<', 'alias', '2', '>', ']', ',', '...', '.']
+Lancaster Stemming : 
+ ['the', 'print', 'statement', 'was', 'changed', 'to', 'the', 'print', '(', ')', 'function', 'in', 'python', '3', '.']
+Lancaster Stemming : 
+ ['[', '63', ']', 'python', 'does', 'not', 'support', 'tail', 'call', 'optimization', 'or', 'first-class', 'continuations', ',', 'and', ',', 'according', 'to', 'guido', 'van', 'rossum', ',', 'it', 'never', 'will', '.']
+Lancaster Stemming : 
+ ['[', '64', ']', '[', '65', ']', 'however', ',', 'better', 'support', 'for', 'coroutine-like', 'functionality', 'is', 'provided', 'in', '2.5', ',', 'by', 'extending', 'python', "'s", 'generators', '.']
+Lancaster Stemming : 
+ ['[', '66', ']', 'before', '2.5', ',', 'generators', 'were', 'lazy', 'iterators', ';', 'information', 'was', 'passed', 'unidirectionally', 'out', 'of', 'the', 'generator', '.']
+Lancaster Stemming : 
+ ['from', 'python', '2.5', ',', 'it', 'is', 'possible', 'to', 'pass', 'information', 'back', 'into', 'a', 'generator', 'function', ',', 'and', 'from', 'python', '3.3', ',', 'the', 'information', 'can', 'be', 'passed', 'through', 'multiple', 'stack', 'levels', '.']
+Lancaster Stemming : 
+ ['[', '67', ']', 'expressions', 'some', 'python', 'expressions', 'are', 'similar', 'to', 'languages', 'such', 'as', 'c', 'and', 'java', ',', 'while', 'some', 'are', 'not', ':', 'addition', ',', 'subtraction', ',', 'and', 'multiplication', 'are', 'the', 'same', ',', 'but', 'the', 'behavior', 'of', 'division', 'differs', '.']
+Lancaster Stemming : 
+ ['there', 'are', 'two', 'types', 'of', 'divisions', 'in', 'python', '.']
+Lancaster Stemming : 
+ ['they', 'are', 'floor', 'division', 'and', 'integer', 'division', '.']
+Lancaster Stemming : 
+ ['[', '68', ']', 'python', 'also', 'added', 'the', '**', 'operator', 'for', 'exponentiation', '.']
+Lancaster Stemming : 
+ ['from', 'python', '3.5', ',', 'the', 'new', '@', 'infix', 'operator', 'was', 'introduced', '.']
+Lancaster Stemming : 
+ ['it', 'is', 'intended', 'to', 'be', 'used', 'by', 'libraries', 'such', 'as', 'numpy', 'for', 'matrix', 'multiplication', '.']
+Lancaster Stemming : 
+ ['[', '69', ']', '[', '70', ']', 'in', 'python', ',', '==', 'compares', 'by', 'value', ',', 'versus', 'java', ',', 'which', 'compares', 'numerics', 'by', 'value', '[', '71', ']', 'and', 'objects', 'by', 'reference', '.']
+Lancaster Stemming : 
+ ['[', '72', ']', '(', 'value', 'comparisons', 'in', 'java', 'on', 'objects', 'can', 'be', 'performed', 'with', 'the', 'equals', '(', ')', 'method', '.', ')']
+Lancaster Stemming : 
+ ['python', "'s", 'is', 'operator', 'may', 'be', 'used', 'to', 'compare', 'object', 'identities', '(', 'comparison', 'by', 'reference', ')', '.']
+Lancaster Stemming : 
+ ['in', 'python', ',', 'comparisons', 'may', 'be', 'chained', ',', 'for', 'example', 'a', '<', '=', 'b', '<', '=', 'c.', 'python', 'uses', 'the', 'words', 'and', ',', 'or', ',', 'not', 'for', 'its', 'boolean', 'operators', 'rather', 'than', 'the', 'symbolic', '&', '&', ',', '||', ',', '!']
+Lancaster Stemming : 
+ ['used', 'in', 'java', 'and', 'c.', 'python', 'has', 'a', 'type', 'of', 'expression', 'termed', 'a', 'list', 'comprehension', '.']
+Lancaster Stemming : 
+ ['python', '2.4', 'extended', 'list', 'comprehensions', 'into', 'a', 'more', 'general', 'expression', 'termed', 'a', 'generator', 'expression', '.']
+Lancaster Stemming : 
+ ['[', '49', ']', 'anonymous', 'functions', 'are', 'implemented', 'using', 'lambda', 'expressions', ';', 'however', ',', 'these', 'are', 'limited', 'in', 'that', 'the', 'body', 'can', 'only', 'be', 'one', 'expression', '.']
+Lancaster Stemming : 
+ ['conditional', 'expressions', 'in', 'python', 'are', 'written', 'as', 'x', 'if', 'c', 'else', 'y', '[', '73', ']', '(', 'different', 'in', 'order', 'of', 'operands', 'from', 'the', 'c', '?']
+Lancaster Stemming : 
+ ['x', ':', 'y', 'operator', 'common', 'to', 'many', 'other', 'languages', ')', '.']
+Lancaster Stemming : 
+ ['python', 'makes', 'a', 'distinction', 'between', 'lists', 'and', 'tuples', '.']
+Lancaster Stemming : 
+ ['lists', 'are', 'written', 'as', '[', '1', ',', '2', ',', '3', ']', ',', 'are', 'mutable', ',', 'and', 'can', 'not', 'be', 'used', 'as', 'the', 'keys', 'of', 'dictionaries', '(', 'dictionary', 'keys', 'must', 'be', 'immutable', 'in', 'python', ')', '.']
+Lancaster Stemming : 
+ ['tuples', 'are', 'written', 'as', '(', '1', ',', '2', ',', '3', ')', ',', 'are', 'immutable', 'and', 'thus', 'can', 'be', 'used', 'as', 'the', 'keys', 'of', 'dictionaries', ',', 'provided', 'all', 'elements', 'of', 'the', 'tuple', 'are', 'immutable', '.']
+Lancaster Stemming : 
+ ['the', '+', 'operator', 'can', 'be', 'used', 'to', 'concatenate', 'two', 'tuples', ',', 'which', 'does', 'not', 'directly', 'modify', 'their', 'contents', ',', 'but', 'rather', 'produces', 'a', 'new', 'tuple', 'containing', 'the', 'elements', 'of', 'both', 'provided', 'tuples', '.']
+Lancaster Stemming : 
+ ['thus', ',', 'given', 'the', 'variable', 't', 'initially', 'equal', 'to', '(', '1', ',', '2', ',', '3', ')', ',', 'executing', 't', '=', 't', '+', '(', '4', ',', '5', ')', 'first', 'evaluates', 't', '+', '(', '4', ',', '5', ')', ',', 'which', 'yields', '(', '1', ',', '2', ',', '3', ',', '4', ',', '5', ')', ',', 'which', 'is', 'then', 'assigned', 'back', 'to', 't', ',', 'thereby', 'effectively', '``', 'modifying', 'the', 'contents', "''", 'of', 't', ',', 'while', 'conforming', 'to', 'the', 'immutable', 'nature', 'of', 'tuple', 'objects', '.']
+Lancaster Stemming : 
+ ['parentheses', 'are', 'optional', 'for', 'tuples', 'in', 'unambiguous', 'contexts', '.']
+Lancaster Stemming : 
+ ['[', '74', ']', 'python', 'features', 'sequence', 'unpacking', 'where', 'multiple', 'expressions', ',', 'each', 'evaluating', 'to', 'anything', 'that', 'can', 'be', 'assigned', 'to', '(', 'a', 'variable', ',', 'a', 'writable', 'property', ',', 'etc', '.']
+Lancaster Stemming : 
+ [')', ',', 'are', 'associated', 'in', 'the', 'identical', 'manner', 'to', 'that', 'forming', 'tuple', 'literals', 'and', ',', 'as', 'a', 'whole', ',', 'are', 'put', 'on', 'the', 'left', 'hand', 'side', 'of', 'the', 'equal', 'sign', 'in', 'an', 'assignment', 'statement', '.']
+Lancaster Stemming : 
+ ['the', 'statement', 'expects', 'an', 'iterable', 'object', 'on', 'the', 'right', 'hand', 'side', 'of', 'the', 'equal', 'sign', 'that', 'produces', 'the', 'same', 'number', 'of', 'values', 'as', 'the', 'provided', 'writable', 'expressions', 'when', 'iterated', 'through', ',', 'and', 'will', 'iterate', 'through', 'it', ',', 'assigning', 'each', 'of', 'the', 'produced', 'values', 'to', 'the', 'corresponding', 'expression', 'on', 'the', 'left', '.']
+Lancaster Stemming : 
+ ['[', 'citation', 'needed', ']', 'python', 'has', 'a', '``', 'string', 'format', "''", 'operator', '%', '.']
+Lancaster Stemming : 
+ ['this', 'functions', 'analogous', 'to', 'printf', 'format', 'strings', 'in', 'c', ',', 'e.g', '.']
+Lancaster Stemming : 
+ ['``', 'spam=', '%', 's', 'eggs=', '%', 'd', "''", '%', '(', '``', 'blah', "''", ',', '2', ')', 'evaluates', 'to', '``', 'spam=blah', 'eggs=2', "''", '.']
+Lancaster Stemming : 
+ ['in', 'python', '3', 'and', '2.6+', ',', 'this', 'was', 'supplemented', 'by', 'the', 'format', '(', ')', 'method', 'of', 'the', 'str', 'class', ',', 'e.g', '.']
+Lancaster Stemming : 
+ ['``', 'spam=', '{', '0', '}', 'eggs=', '{', '1', '}', "''", '.format', '(', '``', 'blah', "''", ',', '2', ')', '.']
+Lancaster Stemming : 
+ ['python', '3.6', 'added', '``', 'f-strings', "''", ':', 'blah', '=', '``', 'blah', "''", ';', 'eggs', '=', '2', ';', "f'spam=", '{', 'blah', '}', 'eggs=', '{', 'eggs', '}', "'", '.']
+Lancaster Stemming : 
+ ['[', '75', ']', 'python', 'has', 'various', 'kinds', 'of', 'string', 'literals', ':', 'strings', 'delimited', 'by', 'single', 'or', 'double', 'quote', 'marks', '.']
+Lancaster Stemming : 
+ ['unlike', 'in', 'unix', 'shells', ',', 'perl', 'and', 'perl-influenced', 'languages', ',', 'single', 'quote', 'marks', 'and', 'double', 'quote', 'marks', 'function', 'identically', '.']
+Lancaster Stemming : 
+ ['both', 'kinds', 'of', 'string', 'use', 'the', 'backslash', '(', '\\', ')', 'as', 'an', 'escape', 'character', '.']
+Lancaster Stemming : 
+ ['string', 'interpolation', 'became', 'available', 'in', 'python', '3.6', 'as', '``', 'formatted', 'string', 'literals', "''", '.']
+Lancaster Stemming : 
+ ['[', '75', ']', 'triple-quoted', 'strings', ',', 'which', 'begin', 'and', 'end', 'with', 'a', 'series', 'of', 'three', 'single', 'or', 'double', 'quote', 'marks', '.']
+Lancaster Stemming : 
+ ['they', 'may', 'span', 'multiple', 'lines', 'and', 'function', 'like', 'here', 'documents', 'in', 'shells', ',', 'perl', 'and', 'ruby', '.']
+Lancaster Stemming : 
+ ['raw', 'string', 'varieties', ',', 'denoted', 'by', 'prefixing', 'the', 'string', 'literal', 'with', 'an', 'r.', 'escape', 'sequences', 'are', 'not', 'interpreted', ';', 'hence', 'raw', 'strings', 'are', 'useful', 'where', 'literal', 'backslashes', 'are', 'common', ',', 'such', 'as', 'regular', 'expressions', 'and', 'windows-style', 'paths', '.']
+Lancaster Stemming : 
+ ['compare', '``', '@', '-quoting', "''", 'in', 'c', '#', '.']
+Lancaster Stemming : 
+ ['python', 'has', 'array', 'index', 'and', 'array', 'slicing', 'expressions', 'on', 'lists', ',', 'denoted', 'as', 'a', '[', 'key', ']', ',', 'a', '[', 'start', ':', 'stop', ']', 'or', 'a', '[', 'start', ':', 'stop', ':', 'step', ']', '.']
+Lancaster Stemming : 
+ ['indexes', 'are', 'zero-based', ',', 'and', 'negative', 'indexes', 'are', 'relative', 'to', 'the', 'end', '.']
+Lancaster Stemming : 
+ ['slices', 'take', 'elements', 'from', 'the', 'start', 'index', 'up', 'to', ',', 'but', 'not', 'including', ',', 'the', 'stop', 'index', '.']
+Lancaster Stemming : 
+ ['the', 'third', 'slice', 'parameter', ',', 'called', 'step', 'or', 'stride', ',', 'allows', 'elements', 'to', 'be', 'skipped', 'and', 'reversed', '.']
+Lancaster Stemming : 
+ ['slice', 'indexes', 'may', 'be', 'omitted', ',', 'for', 'example', 'a', '[', ':', ']', 'returns', 'a', 'copy', 'of', 'the', 'entire', 'list', '.']
+Lancaster Stemming : 
+ ['each', 'element', 'of', 'a', 'slice', 'is', 'a', 'shallow', 'copy', '.']
+Lancaster Stemming : 
+ ['in', 'python', ',', 'a', 'distinction', 'between', 'expressions', 'and', 'statements', 'is', 'rigidly', 'enforced', ',', 'in', 'contrast', 'to', 'languages', 'such', 'as', 'common', 'lisp', ',', 'scheme', ',', 'or', 'ruby', '.']
+Lancaster Stemming : 
+ ['this', 'leads', 'to', 'duplicating', 'some', 'functionality', '.']
+Lancaster Stemming : 
+ ['for', 'example', ':', 'list', 'comprehensions', 'vs.', 'for-loops', 'conditional', 'expressions', 'vs.', 'if', 'blocks', 'the', 'eval', '(', ')', 'vs.', 'exec', '(', ')', 'built-in', 'functions', '(', 'in', 'python', '2', ',', 'exec', 'is', 'a', 'statement', ')', ';', 'the', 'former', 'is', 'for', 'expressions', ',', 'the', 'latter', 'is', 'for', 'statements', '.']
+Lancaster Stemming : 
+ ['statements', 'can', 'not', 'be', 'a', 'part', 'of', 'an', 'expression', ',', 'so', 'list', 'and', 'other', 'comprehensions', 'or', 'lambda', 'expressions', ',', 'all', 'being', 'expressions', ',', 'can', 'not', 'contain', 'statements', '.']
+Lancaster Stemming : 
+ ['a', 'particular', 'case', 'of', 'this', 'is', 'that', 'an', 'assignment', 'statement', 'such', 'as', 'a', '=', '1', 'can', 'not', 'form', 'part', 'of', 'the', 'conditional', 'expression', 'of', 'a', 'conditional', 'statement', '.']
+Lancaster Stemming : 
+ ['this', 'has', 'the', 'advantage', 'of', 'avoiding', 'a', 'classic', 'c', 'error', 'of', 'mistaking', 'an', 'assignment', 'operator', '=', 'for', 'an', 'equality', 'operator', '==', 'in', 'conditions', ':', 'if', '(', 'c', '=', '1', ')', '{', '...', '}', 'is', 'syntactically', 'valid', '(', 'but', 'probably', 'unintended', ')', 'c', 'code', 'but', 'if', 'c', '=', '1', ':', '...', 'causes', 'a', 'syntax', 'error', 'in', 'python', '.']
+Lancaster Stemming : 
+ ['methods', 'methods', 'on', 'objects', 'are', 'functions', 'attached', 'to', 'the', 'object', "'s", 'class', ';', 'the', 'syntax', 'instance.method', '(', 'argument', ')', 'is', ',', 'for', 'normal', 'methods', 'and', 'functions', ',', 'syntactic', 'sugar', 'for', 'class.method', '(', 'instance', ',', 'argument', ')', '.']
+Lancaster Stemming : 
+ ['python', 'methods', 'have', 'an', 'explicit', 'self', 'parameter', 'to', 'access', 'instance', 'data', ',', 'in', 'contrast', 'to', 'the', 'implicit', 'self', '(', 'or', 'this', ')', 'in', 'some', 'other', 'object-oriented', 'programming', 'languages', '(', 'e.g.', ',', 'c++', ',', 'java', ',', 'objective-c', ',', 'or', 'ruby', ')', '.']
+Lancaster Stemming : 
+ ['[', '76', ']', 'typing', 'python', 'uses', 'duck', 'typing', 'and', 'has', 'typed', 'objects', 'but', 'untyped', 'variable', 'names', '.']
+Lancaster Stemming : 
+ ['type', 'constraints', 'are', 'not', 'checked', 'at', 'compile', 'time', ';', 'rather', ',', 'operations', 'on', 'an', 'object', 'may', 'fail', ',', 'signifying', 'that', 'the', 'given', 'object', 'is', 'not', 'of', 'a', 'suitable', 'type', '.']
+Lancaster Stemming : 
+ ['despite', 'being', 'dynamically', 'typed', ',', 'python', 'is', 'strongly', 'typed', ',', 'forbidding', 'operations', 'that', 'are', 'not', 'well-defined', '(', 'for', 'example', ',', 'adding', 'a', 'number', 'to', 'a', 'string', ')', 'rather', 'than', 'silently', 'attempting', 'to', 'make', 'sense', 'of', 'them', '.']
+Lancaster Stemming : 
+ ['python', 'allows', 'programmers', 'to', 'define', 'their', 'own', 'types', 'using', 'classes', ',', 'which', 'are', 'most', 'often', 'used', 'for', 'object-oriented', 'programming', '.']
+Lancaster Stemming : 
+ ['new', 'instances', 'of', 'classes', 'are', 'constructed', 'by', 'calling', 'the', 'class', '(', 'for', 'example', ',', 'spamclass', '(', ')', 'or', 'eggsclass', '(', ')', ')', ',', 'and', 'the', 'classes', 'are', 'instances', 'of', 'the', 'metaclass', 'type', '(', 'itself', 'an', 'instance', 'of', 'itself', ')', ',', 'allowing', 'metaprogramming', 'and', 'reflection', '.']
+Lancaster Stemming : 
+ ['before', 'version', '3.0', ',', 'python', 'had', 'two', 'kinds', 'of', 'classes', ':', 'old-style', 'and', 'new-style', '.']
+Lancaster Stemming : 
+ ['[', '77', ']', 'the', 'syntax', 'of', 'both', 'styles', 'is', 'the', 'same', ',', 'the', 'difference', 'being', 'whether', 'the', 'class', 'object', 'is', 'inherited', 'from', ',', 'directly', 'or', 'indirectly', '(', 'all', 'new-style', 'classes', 'inherit', 'from', 'object', 'and', 'are', 'instances', 'of', 'type', ')', '.']
+Lancaster Stemming : 
+ ['in', 'versions', 'of', 'python', '2', 'from', 'python', '2.2', 'onwards', ',', 'both', 'kinds', 'of', 'classes', 'can', 'be', 'used', '.']
+Lancaster Stemming : 
+ ['old-style', 'classes', 'were', 'eliminated', 'in', 'python', '3.0', '.']
+Lancaster Stemming : 
+ ['the', 'long', 'term', 'plan', 'is', 'to', 'support', 'gradual', 'typing', '[', '78', ']', 'and', 'from', 'python', '3.5', ',', 'the', 'syntax', 'of', 'the', 'language', 'allows', 'specifying', 'static', 'types', 'but', 'they', 'are', 'not', 'checked', 'in', 'the', 'default', 'implementation', ',', 'cpython', '.']
+Lancaster Stemming : 
+ ['an', 'experimental', 'optional', 'static', 'type', 'checker', 'named', 'mypy', 'supports', 'compile-time', 'type', 'checking', '.']
+Lancaster Stemming : 
+ ['[', '79', ']', 'summary', 'of', 'python', '3', "'s", 'built-in', 'types', 'type', 'mutable', 'description', 'syntax', 'example', 'bool', 'immutable', 'boolean', 'value', 'truefalse', 'bytearray', 'mutable', 'sequence', 'of', 'bytes', 'bytearray', '(', "b'some", 'ascii', "'", ')', 'bytearray', '(', 'b', "''", 'some', 'ascii', "''", ')', 'bytearray', '(', '[', '119', ',', '105', ',', '107', ',', '105', ']', ')', 'bytes', 'immutable', 'sequence', 'of', 'bytes', "b'some", "ascii'b", "''", 'some', 'ascii', "''", 'bytes', '(', '[', '119', ',', '105', ',', '107', ',', '105', ']', ')', 'complex', 'immutable', 'complex', 'number', 'with', 'real', 'and', 'imaginary', 'parts', '3+2.7j', 'dict', 'mutable', 'associative', 'array', '(', 'or', 'dictionary', ')', 'of', 'key', 'and', 'value', 'pairs', ';', 'can', 'contain', 'mixed', 'types', '(', 'keys', 'and', 'values', ')', ',', 'keys', 'must', 'be', 'a', 'hashable', 'type', '{', "'key1", "'", ':', '1.0', ',', '3', ':', 'false', '}', 'ellipsis', 'an', 'ellipsis', 'placeholder', 'to', 'be', 'used', 'as', 'an', 'index', 'in', 'numpy', 'arrays', '...', 'float', 'immutable', 'floating', 'point', 'number', ',', 'system-defined', 'precision', '3.1415927', 'frozenset', 'immutable', 'unordered', 'set', ',', 'contains', 'no', 'duplicates', ';', 'can', 'contain', 'mixed', 'types', ',', 'if', 'hashable', 'frozenset', '(', '[', '4.0', ',', "'string", "'", ',', 'true', ']', ')', 'int', 'immutable', 'integer', 'of', 'unlimited', 'magnitude', '[', '80', ']', '42', 'list', 'mutable', 'list', ',', 'can', 'contain', 'mixed', 'types', '[', '4.0', ',', "'string", "'", ',', 'true', ']', 'set', 'mutable', 'unordered', 'set', ',', 'contains', 'no', 'duplicates', ';', 'can', 'contain', 'mixed', 'types', ',', 'if', 'hashable', '{', '4.0', ',', "'string", "'", ',', 'true', '}', 'str', 'immutable', 'a', 'character', 'string', ':', 'sequence', 'of', 'unicode', 'codepoints', "'wikipedia", "'", "''", 'wikipedia', "''", "''", "''", "''", 'spanningmultiplelines', "''", "''", "''", 'tuple', 'immutable', 'can', 'contain', 'mixed', 'types', '(', '4.0', ',', "'string", "'", ',', 'true', ')', 'mathematics', 'python', 'has', 'the', 'usual', 'c', 'language', 'arithmetic', 'operators', '(', '+', ',', '-', ',', '*', ',', '/', ',', '%', ')', '.']
+Lancaster Stemming : 
+ ['it', 'also', 'has', '**', 'for', 'exponentiation', ',', 'e.g', '.']
+Lancaster Stemming : 
+ ['5**3', '==', '125', 'and', '9**0.5', '==', '3.0', ',', 'and', 'a', 'new', 'matrix', 'multiply', '@', 'operator', 'is', 'included', 'in', 'version', '3.5', '.']
+Lancaster Stemming : 
+ ['[', '81', ']', 'additionally', ',', 'it', 'has', 'a', 'unary', 'operator', '(', '~', ')', ',', 'which', 'essentially', 'inverts', 'all', 'the', 'bits', 'of', 'its', 'one', 'argument', '.']
+Lancaster Stemming : 
+ ['for', 'integers', ',', 'this', 'means', '~x=-x-1', '.']
+Lancaster Stemming : 
+ ['[', '82', ']', 'other', 'operators', 'include', 'bitwise', 'shift', 'operators', 'x', '<', '<', 'y', ',', 'which', 'shifts', 'x', 'to', 'the', 'left', 'y', 'places', ',', 'the', 'same', 'as', 'x*', '(', '2**y', ')', ',', 'and', 'x', '>', '>', 'y', ',', 'which', 'shifts', 'x', 'to', 'the', 'right', 'y', 'places', ',', 'the', 'same', 'as', 'x//', '(', '2**y', ')', '.']
+Lancaster Stemming : 
+ ['[', '83', ']', 'the', 'behavior', 'of', 'division', 'has', 'changed', 'significantly', 'over', 'time', ':', '[', '84', ']', '[', 'why', '?', ']']
+Lancaster Stemming : 
+ ['python', '2.1', 'and', 'earlier', 'use', 'the', 'c', 'division', 'behavior', '.']
+Lancaster Stemming : 
+ ['the', '/', 'operator', 'is', 'integer', 'division', 'if', 'both', 'operands', 'are', 'integers', ',', 'and', 'floating-point', 'division', 'otherwise', '.']
+Lancaster Stemming : 
+ ['integer', 'division', 'rounds', 'towards', '0', ',', 'e.g', '.']
+Lancaster Stemming : 
+ ['7/3', '==', '2', 'and', '-7/3', '==', '-2', '.']
+Lancaster Stemming : 
+ ['python', '2.2', 'changes', 'integer', 'division', 'to', 'round', 'towards', 'negative', 'infinity', ',', 'e.g', '.']
+Lancaster Stemming : 
+ ['7/3', '==', '2', 'and', '-7/3', '==', '-3', '.']
+Lancaster Stemming : 
+ ['the', 'floor', 'division', '//', 'operator', 'is', 'introduced', '.']
+Lancaster Stemming : 
+ ['so', '7//3', '==', '2', ',', '-7//3', '==', '-3', ',', '7.5//3', '==', '2.0', 'and', '-7.5//3', '==', '-3.0', '.']
+Lancaster Stemming : 
+ ['adding', 'from', '__future__', 'import', 'division', 'causes', 'a', 'module', 'to', 'use', 'python', '3.0', 'rules', 'for', 'division', '(', 'see', 'next', ')', '.']
+Lancaster Stemming : 
+ ['python', '3.0', 'changes', '/', 'to', 'be', 'always', 'floating-point', 'division', '.']
+Lancaster Stemming : 
+ ['in', 'python', 'terms', ',', 'the', 'pre-3.0', '/', 'is', 'classic', 'division', ',', 'the', 'version-3.0', '/', 'is', 'real', 'division', ',', 'and', '//', 'is', 'floor', 'division', '.']
+Lancaster Stemming : 
+ ['rounding', 'towards', 'negative', 'infinity', ',', 'though', 'different', 'from', 'most', 'languages', ',', 'adds', 'consistency', '.']
+Lancaster Stemming : 
+ ['for', 'instance', ',', 'it', 'means', 'that', 'the', 'equation', '(', 'a', '+', 'b', ')', '//b', '==', 'a//b', '+', '1', 'is', 'always', 'true', '.']
+Lancaster Stemming : 
+ ['it', 'also', 'means', 'that', 'the', 'equation', 'b*', '(', 'a//b', ')', '+', 'a', '%', 'b', '==', 'a', 'is', 'valid', 'for', 'both', 'positive', 'and', 'negative', 'values', 'of', 'a', '.']
+Lancaster Stemming : 
+ ['however', ',', 'maintaining', 'the', 'validity', 'of', 'this', 'equation', 'means', 'that', 'while', 'the', 'result', 'of', 'a', '%', 'b', 'is', ',', 'as', 'expected', ',', 'in', 'the', 'half-open', 'interval', '[', '0', ',', 'b', ')', ',', 'where', 'b', 'is', 'a', 'positive', 'integer', ',', 'it', 'has', 'to', 'lie', 'in', 'the', 'interval', '(', 'b', ',', '0', ']', 'when', 'b', 'is', 'negative', '.']
+Lancaster Stemming : 
+ ['[', '85', ']', 'python', 'provides', 'a', 'round', 'function', 'for', 'rounding', 'a', 'float', 'to', 'the', 'nearest', 'integer', '.']
+Lancaster Stemming : 
+ ['for', 'tie-breaking', ',', 'versions', 'before', '3', 'use', 'round-away-from-zero', ':', 'round', '(', '0.5', ')', 'is', '1.0', ',', 'round', '(', '-0.5', ')', 'is', '−1.0', '.']
+Lancaster Stemming : 
+ ['[', '86', ']', 'python', '3', 'uses', 'round', 'to', 'even', ':', 'round', '(', '1.5', ')', 'is', '2', ',', 'round', '(', '2.5', ')', 'is', '2', '.']
+Lancaster Stemming : 
+ ['[', '87', ']', 'python', 'allows', 'boolean', 'expressions', 'with', 'multiple', 'equality', 'relations', 'in', 'a', 'manner', 'that', 'is', 'consistent', 'with', 'general', 'use', 'in', 'mathematics', '.']
+Lancaster Stemming : 
+ ['for', 'example', ',', 'the', 'expression', 'a', '<', 'b', '<', 'c', 'tests', 'whether', 'a', 'is', 'less', 'than', 'b', 'and', 'b', 'is', 'less', 'than', 'c.', '[', '88', ']', 'c-derived', 'languages', 'interpret', 'this', 'expression', 'differently', ':', 'in', 'c', ',', 'the', 'expression', 'would', 'first', 'evaluate', 'a', '<', 'b', ',', 'resulting', 'in', '0', 'or', '1', ',', 'and', 'that', 'result', 'would', 'then', 'be', 'compared', 'with', 'c.', '[', '89', ']', 'python', 'has', 'extensive', 'built-in', 'support', 'for', 'arbitrary', 'precision', 'arithmetic', '.']
+Lancaster Stemming : 
+ ['integers', 'are', 'transparently', 'switched', 'from', 'the', 'machine-supported', 'maximum', 'fixed-precision', '(', 'usually', '32', 'or', '64', 'bits', ')', ',', 'belonging', 'to', 'the', 'python', 'type', 'int', ',', 'to', 'arbitrary', 'precision', ',', 'belonging', 'to', 'the', 'python', 'type', 'long', ',', 'where', 'needed', '.']
+Lancaster Stemming : 
+ ['the', 'latter', 'have', 'an', '``', 'l', "''", 'suffix', 'in', 'their', 'textual', 'representation', '.']
+Lancaster Stemming : 
+ ['[', '90', ']', '(', 'in', 'python', '3', ',', 'the', 'distinction', 'between', 'the', 'int', 'and', 'long', 'types', 'was', 'eliminated', ';', 'this', 'behavior', 'is', 'now', 'entirely', 'contained', 'by', 'the', 'int', 'class', '.', ')']
+Lancaster Stemming : 
+ ['the', 'decimal', 'type/class', 'in', 'module', 'decimal', '(', 'since', 'version', '2.4', ')', 'provides', 'decimal', 'floating', 'point', 'numbers', 'to', 'arbitrary', 'precision', 'and', 'several', 'rounding', 'modes', '.']
+Lancaster Stemming : 
+ ['[', '91', ']', 'the', 'fraction', 'type', 'in', 'module', 'fractions', '(', 'since', 'version', '2.6', ')', 'provides', 'arbitrary', 'precision', 'for', 'rational', 'numbers', '.']
+Lancaster Stemming : 
+ ['[', '92', ']', 'due', 'to', 'python', "'s", 'extensive', 'mathematics', 'library', ',', 'and', 'the', 'third-party', 'library', 'numpy', 'that', 'further', 'extends', 'the', 'native', 'capabilities', ',', 'it', 'is', 'frequently', 'used', 'as', 'a', 'scientific', 'scripting', 'language', 'to', 'aid', 'in', 'problems', 'such', 'as', 'numerical', 'data', 'processing', 'and', 'manipulation', '.']
+Lancaster Stemming : 
+ ['[', 'citation', 'needed', ']', 'libraries', 'python', "'s", 'large', 'standard', 'library', ',', 'commonly', 'cited', 'as', 'one', 'of', 'its', 'greatest', 'strengths', ',', '[', '93', ']', 'provides', 'tools', 'suited', 'to', 'many', 'tasks', '.']
+Lancaster Stemming : 
+ ['for', 'internet-facing', 'applications', ',', 'many', 'standard', 'formats', 'and', 'protocols', 'such', 'as', 'mime', 'and', 'http', 'are', 'supported', '.']
+Lancaster Stemming : 
+ ['it', 'includes', 'modules', 'for', 'creating', 'graphical', 'user', 'interfaces', ',', 'connecting', 'to', 'relational', 'databases', ',', 'generating', 'pseudorandom', 'numbers', ',', 'arithmetic', 'with', 'arbitrary', 'precision', 'decimals', ',', '[', '94', ']', 'manipulating', 'regular', 'expressions', ',', 'and', 'unit', 'testing', '.']
+Lancaster Stemming : 
+ ['some', 'parts', 'of', 'the', 'standard', 'library', 'are', 'covered', 'by', 'specifications', '(', 'for', 'example', ',', 'the', 'web', 'server', 'gateway', 'interface', '(', 'wsgi', ')', 'implementation', 'wsgiref', 'follows', 'pep', '333', '[', '95', ']', ')', ',', 'but', 'most', 'modules', 'are', 'not', '.']
+Lancaster Stemming : 
+ ['they', 'are', 'specified', 'by', 'their', 'code', ',', 'internal', 'documentation', ',', 'and', 'test', 'suites', '(', 'if', 'supplied', ')', '.']
+Lancaster Stemming : 
+ ['however', ',', 'because', 'most', 'of', 'the', 'standard', 'library', 'is', 'cross-platform', 'python', 'code', ',', 'only', 'a', 'few', 'modules', 'need', 'altering', 'or', 'rewriting', 'for', 'variant', 'implementations', '.']
+Lancaster Stemming : 
+ ['as', 'of', 'march', '2018', ',', '[', 'update', ']', 'the', 'python', 'package', 'index', '(', 'pypi', ')', ',', 'the', 'official', 'repository', 'for', 'third-party', 'python', 'software', ',', 'contains', 'over', '130,000', '[', '96', ']', 'packages', 'with', 'a', 'wide', 'range', 'of', 'functionality', ',', 'including', ':', 'graphical', 'user', 'interfaces', 'web', 'frameworks', 'multimedia', 'databases', 'networking', 'test', 'frameworks', 'automation', 'web', 'scraping', '[', '97', ']', 'documentation', 'system', 'administration', 'scientific', 'computing', 'text', 'processing', 'image', 'processing', 'terminology', ':', 'modules', 'and', 'packages', '“', '[', 'a', ']', 'module', 'is', 'an', 'object', 'in', 'the', 'memory', 'of', 'a', 'python', 'interpreter', ',', 'often', 'created', 'by', 'reading', 'one', 'or', 'more', 'files', 'from', 'disk', '”', ',', '[', '98', ']', 'and', '“', 'a', 'package', 'is', 'a', 'python', 'module', 'with', 'an', '__path__', 'attribute', '.']
+Lancaster Stemming : 
+ ['[', '99', ']', 'development', 'environments', 'see', 'also', ':', 'comparison', 'of', 'integrated', 'development', 'environments', '§', 'python', 'most', 'python', 'implementations', '(', 'including', 'cpython', ')', 'include', 'a', 'read–eval–print', 'loop', '(', 'repl', ')', ',', 'permitting', 'them', 'to', 'function', 'as', 'a', 'command', 'line', 'interpreter', 'for', 'which', 'the', 'user', 'enters', 'statements', 'sequentially', 'and', 'receives', 'results', 'immediately', '.']
+Lancaster Stemming : 
+ ['other', 'shells', ',', 'including', 'idle', 'and', 'ipython', ',', 'add', 'further', 'abilities', 'such', 'as', 'auto-completion', ',', 'session', 'state', 'retention', 'and', 'syntax', 'highlighting', '.']
+Lancaster Stemming : 
+ ['as', 'well', 'as', 'standard', 'desktop', 'integrated', 'development', 'environments', ',', 'there', 'are', 'web', 'browser-based', 'ides', ';', 'sagemath', '(', 'intended', 'for', 'developing', 'science', 'and', 'math-related', 'python', 'programs', ')', ';', 'pythonanywhere', ',', 'a', 'browser-based', 'ide', 'and', 'hosting', 'environment', ';', 'and', 'canopy', 'ide', ',', 'a', 'commercial', 'python', 'ide', 'emphasizing', 'scientific', 'computing', '.']
+Lancaster Stemming : 
+ ['[', '100', ']', 'implementations', 'see', 'also', ':', 'list', 'of', 'python', 'software', '§', 'python', 'implementations', 'reference', 'implementation', 'cpython', 'is', 'the', 'reference', 'implementation', 'of', 'python', '.']
+Lancaster Stemming : 
+ ['it', 'is', 'written', 'in', 'c', ',', 'meeting', 'the', 'c89', 'standard', 'with', 'several', 'select', 'c99', 'features', '.']
+Lancaster Stemming : 
+ ['[', '101', ']', 'it', 'compiles', 'python', 'programs', 'into', 'an', 'intermediate', 'bytecode', '[', '102', ']', 'which', 'is', 'then', 'executed', 'by', 'its', 'virtual', 'machine', '.']
+Lancaster Stemming : 
+ ['[', '103', ']', 'cpython', 'is', 'distributed', 'with', 'a', 'large', 'standard', 'library', 'written', 'in', 'a', 'mixture', 'of', 'c', 'and', 'native', 'python', '.']
+Lancaster Stemming : 
+ ['it', 'is', 'available', 'for', 'many', 'platforms', ',', 'including', 'windows', 'and', 'most', 'modern', 'unix-like', 'systems', '.']
+Lancaster Stemming : 
+ ['platform', 'portability', 'was', 'one', 'of', 'its', 'earliest', 'priorities', '.']
+Lancaster Stemming : 
+ ['[', '104', ']', 'other', 'implementations', 'pypy', 'is', 'a', 'fast', ',', 'compliant', '[', '105', ']', 'interpreter', 'of', 'python', '2.7', 'and', '3.5', '.']
+Lancaster Stemming : 
+ ['its', 'just-in-time', 'compiler', 'brings', 'a', 'significant', 'speed', 'improvement', 'over', 'cpython', '.']
+Lancaster Stemming : 
+ ['[', '106', ']', 'stackless', 'python', 'is', 'a', 'significant', 'fork', 'of', 'cpython', 'that', 'implements', 'microthreads', ';', 'it', 'does', 'not', 'use', 'the', 'c', 'memory', 'stack', ',', 'thus', 'allowing', 'massively', 'concurrent', 'programs', '.']
+Lancaster Stemming : 
+ ['pypy', 'also', 'has', 'a', 'stackless', 'version', '.']
+Lancaster Stemming : 
+ ['[', '107', ']', 'micropython', 'and', 'circuitpython', 'are', 'python', '3', 'variants', 'optimised', 'for', 'microcontrollers', '.']
+Lancaster Stemming : 
+ ['unsupported', 'implementations', 'other', 'just-in-time', 'python', 'compilers', 'have', 'been', 'developed', ',', 'but', 'are', 'now', 'unsupported', ':', 'google', 'began', 'a', 'project', 'named', 'unladen', 'swallow', 'in', '2009', 'with', 'the', 'aim', 'of', 'speeding', 'up', 'the', 'python', 'interpreter', 'fivefold', 'by', 'using', 'the', 'llvm', ',', 'and', 'of', 'improving', 'its', 'multithreading', 'ability', 'to', 'scale', 'to', 'thousands', 'of', 'cores', '.']
+Lancaster Stemming : 
+ ['[', '108', ']', 'psyco', 'is', 'a', 'just-in-time', 'specialising', 'compiler', 'that', 'integrates', 'with', 'cpython', 'and', 'transforms', 'bytecode', 'to', 'machine', 'code', 'at', 'runtime', '.']
+Lancaster Stemming : 
+ ['the', 'emitted', 'code', 'is', 'specialised', 'for', 'certain', 'data', 'types', 'and', 'is', 'faster', 'than', 'standard', 'python', 'code', '.']
+Lancaster Stemming : 
+ ['in', '2005', ',', 'nokia', 'released', 'a', 'python', 'interpreter', 'for', 'the', 'series', '60', 'mobile', 'phones', 'named', 'pys60', '.']
+Lancaster Stemming : 
+ ['it', 'includes', 'many', 'of', 'the', 'modules', 'from', 'the', 'cpython', 'implementations', 'and', 'some', 'additional', 'modules', 'to', 'integrate', 'with', 'the', 'symbian', 'operating', 'system', '.']
+Lancaster Stemming : 
+ ['the', 'project', 'has', 'been', 'kept', 'up-to-date', 'to', 'run', 'on', 'all', 'variants', 'of', 'the', 's60', 'platform', ',', 'and', 'several', 'third-party', 'modules', 'are', 'available', '.']
+Lancaster Stemming : 
+ ['the', 'nokia', 'n900', 'also', 'supports', 'python', 'with', 'gtk', 'widget', 'libraries', ',', 'enabling', 'programs', 'to', 'be', 'written', 'and', 'run', 'on', 'the', 'target', 'device', '.']
+Lancaster Stemming : 
+ ['[', '109', ']', 'cross-compilers', 'to', 'other', 'languages', 'there', 'are', 'several', 'compilers', 'to', 'high-level', 'object', 'languages', ',', 'with', 'either', 'unrestricted', 'python', ',', 'a', 'restricted', 'subset', 'of', 'python', ',', 'or', 'a', 'language', 'similar', 'to', 'python', 'as', 'the', 'source', 'language', ':', 'jython', 'compiles', 'into', 'java', 'byte', 'code', ',', 'which', 'can', 'then', 'be', 'executed', 'by', 'every', 'java', 'virtual', 'machine', 'implementation', '.']
+Lancaster Stemming : 
+ ['this', 'also', 'enables', 'the', 'use', 'of', 'java', 'class', 'library', 'functions', 'from', 'the', 'python', 'program', '.']
+Lancaster Stemming : 
+ ['ironpython', 'follows', 'a', 'similar', 'approach', 'in', 'order', 'to', 'run', 'python', 'programs', 'on', 'the', '.net', 'common', 'language', 'runtime', '.']
+Lancaster Stemming : 
+ ['the', 'rpython', 'language', 'can', 'be', 'compiled', 'to', 'c', ',', 'java', 'bytecode', ',', 'or', 'common', 'intermediate', 'language', ',', 'and', 'is', 'used', 'to', 'build', 'the', 'pypy', 'interpreter', 'of', 'python', '.']
+Lancaster Stemming : 
+ ['pyjs', 'compiles', 'python', 'to', 'javascript', '.']
+Lancaster Stemming : 
+ ['cython', 'compiles', 'python', 'to', 'c', 'and', 'c++', '.']
+Lancaster Stemming : 
+ ['pythran', 'compiles', 'python', 'to', 'c++', '.']
+Lancaster Stemming : 
+ ['somewhat', 'dated', 'pyrex', '(', 'latest', 'release', 'in', '2010', ')', 'and', 'shed', 'skin', '(', 'latest', 'release', 'in', '2013', ')', 'compile', 'to', 'c', 'and', 'c++', 'respectively', '.']
+Lancaster Stemming : 
+ ['google', "'s", 'grumpy', 'compiles', 'python', 'to', 'go', '.']
+Lancaster Stemming : 
+ ['myhdl', 'compiles', 'python', 'to', 'vhdl', '.']
+Lancaster Stemming : 
+ ['nuitka', 'compiles', 'python', 'into', 'c++', '[', '110', ']', 'performance', 'a', 'performance', 'comparison', 'of', 'various', 'python', 'implementations', 'on', 'a', 'non-numerical', '(', 'combinatorial', ')', 'workload', 'was', 'presented', 'at', 'euroscipy', "'13", '.']
+Lancaster Stemming : 
+ ['[', '111', ']', 'development', 'python', "'s", 'development', 'is', 'conducted', 'largely', 'through', 'the', 'python', 'enhancement', 'proposal', '(', 'pep', ')', 'process', ',', 'the', 'primary', 'mechanism', 'for', 'proposing', 'major', 'new', 'features', ',', 'collecting', 'community', 'input', 'on', 'issues', 'and', 'documenting', 'python', 'design', 'decisions', '.']
+Lancaster Stemming : 
+ ['[', '112', ']', 'outstanding', 'peps', 'are', 'reviewed', 'and', 'commented', 'on', 'by', 'the', 'python', 'community', 'and', 'guido', 'van', 'rossum', ',', 'python', "'s", 'benevolent', 'dictator', 'for', 'life', '.']
+Lancaster Stemming : 
+ ['[', '112', ']', 'enhancement', 'of', 'the', 'language', 'corresponds', 'with', 'development', 'of', 'the', 'cpython', 'reference', 'implementation', '.']
+Lancaster Stemming : 
+ ['the', 'mailing', 'list', 'python-dev', 'is', 'the', 'primary', 'forum', 'for', 'the', 'language', "'s", 'development', '.']
+Lancaster Stemming : 
+ ['specific', 'issues', 'are', 'discussed', 'in', 'the', 'roundup', 'bug', 'tracker', 'maintained', 'at', 'python.org', '.']
+Lancaster Stemming : 
+ ['[', '113', ']', 'development', 'originally', 'took', 'place', 'on', 'a', 'self-hosted', 'source-code', 'repository', 'running', 'mercurial', ',', 'until', 'python', 'moved', 'to', 'github', 'in', 'january', '2017', '.']
+Lancaster Stemming : 
+ ['[', '114', ']', 'cpython', "'s", 'public', 'releases', 'come', 'in', 'three', 'types', ',', 'distinguished', 'by', 'which', 'part', 'of', 'the', 'version', 'number', 'is', 'incremented', ':', 'backward-incompatible', 'versions', ',', 'where', 'code', 'is', 'expected', 'to', 'break', 'and', 'need', 'to', 'be', 'manually', 'ported', '.']
+Lancaster Stemming : 
+ ['the', 'first', 'part', 'of', 'the', 'version', 'number', 'is', 'incremented', '.']
+Lancaster Stemming : 
+ ['these', 'releases', 'happen', 'infrequently—for', 'example', ',', 'version', '3.0', 'was', 'released', '8', 'years', 'after', '2.0', '.']
+Lancaster Stemming : 
+ ['major', 'or', '``', 'feature', "''", 'releases', ',', 'about', 'every', '18', 'months', ',', 'are', 'largely', 'compatible', 'but', 'introduce', 'new', 'features', '.']
+Lancaster Stemming : 
+ ['the', 'second', 'part', 'of', 'the', 'version', 'number', 'is', 'incremented', '.']
+Lancaster Stemming : 
+ ['each', 'major', 'version', 'is', 'supported', 'by', 'bugfixes', 'for', 'several', 'years', 'after', 'its', 'release', '.']
+Lancaster Stemming : 
+ ['[', '115', ']', 'bugfix', 'releases', ',', 'which', 'introduce', 'no', 'new', 'features', ',', 'occur', 'about', 'every', '3', 'months', 'and', 'are', 'made', 'when', 'a', 'sufficient', 'number', 'of', 'bugs', 'have', 'been', 'fixed', 'upstream', 'since', 'the', 'last', 'release', '.']
+Lancaster Stemming : 
+ ['security', 'vulnerabilities', 'are', 'also', 'patched', 'in', 'these', 'releases', '.']
+Lancaster Stemming : 
+ ['the', 'third', 'and', 'final', 'part', 'of', 'the', 'version', 'number', 'is', 'incremented', '.']
+Lancaster Stemming : 
+ ['[', '116', ']', 'many', 'alpha', ',', 'beta', ',', 'and', 'release-candidates', 'are', 'also', 'released', 'as', 'previews', 'and', 'for', 'testing', 'before', 'final', 'releases', '.']
+Lancaster Stemming : 
+ ['although', 'there', 'is', 'a', 'rough', 'schedule', 'for', 'each', 'release', ',', 'they', 'are', 'often', 'delayed', 'if', 'the', 'code', 'is', 'not', 'ready', '.']
+Lancaster Stemming : 
+ ['python', "'s", 'development', 'team', 'monitors', 'the', 'state', 'of', 'the', 'code', 'by', 'running', 'the', 'large', 'unit', 'test', 'suite', 'during', 'development', ',', 'and', 'using', 'the', 'buildbot', 'continuous', 'integration', 'system', '.']
+Lancaster Stemming : 
+ ['[', '117', ']', 'the', 'community', 'of', 'python', 'developers', 'has', 'also', 'contributed', 'over', '86,000', '[', '118', ']', 'software', 'modules', '(', 'as', 'of', '20', 'august', '2016', '[', 'update', ']', ')', 'to', 'the', 'python', 'package', 'index', '(', 'pypi', ')', ',', 'the', 'official', 'repository', 'of', 'third-party', 'python', 'libraries', '.']
+Lancaster Stemming : 
+ ['the', 'major', 'academic', 'conference', 'on', 'python', 'is', 'pycon', '.']
+Lancaster Stemming : 
+ ['there', 'are', 'also', 'special', 'python', 'mentoring', 'programmes', ',', 'such', 'as', 'pyladies', '.']
+Lancaster Stemming : 
+ ['naming', 'python', "'s", 'name', 'is', 'derived', 'from', 'the', 'british', 'comedy', 'group', 'monty', 'python', ',', 'whom', 'python', 'creator', 'guido', 'van', 'rossum', 'enjoyed', 'while', 'developing', 'the', 'language', '.']
+Lancaster Stemming : 
+ ['monty', 'python', 'references', 'appear', 'frequently', 'in', 'python', 'code', 'and', 'culture', ';', '[', '119', ']', 'for', 'example', ',', 'the', 'metasyntactic', 'variables', 'often', 'used', 'in', 'python', 'literature', 'are', 'spam', 'and', 'eggs', 'instead', 'of', 'the', 'traditional', 'foo', 'and', 'bar', '.']
+Lancaster Stemming : 
+ ['[', '119', ']', '[', '120', ']', 'the', 'official', 'python', 'documentation', 'also', 'contains', 'various', 'references', 'to', 'monty', 'python', 'routines', '.']
+Lancaster Stemming : 
+ ['[', '121', ']', '[', '122', ']', 'the', 'prefix', 'py-', 'is', 'used', 'to', 'show', 'that', 'something', 'is', 'related', 'to', 'python', '.']
+Lancaster Stemming : 
+ ['examples', 'of', 'the', 'use', 'of', 'this', 'prefix', 'in', 'names', 'of', 'python', 'applications', 'or', 'libraries', 'include', 'pygame', ',', 'a', 'binding', 'of', 'sdl', 'to', 'python', '(', 'commonly', 'used', 'to', 'create', 'games', ')', ';', 'pyqt', 'and', 'pygtk', ',', 'which', 'bind', 'qt', 'and', 'gtk', 'to', 'python', 'respectively', ';', 'and', 'pypy', ',', 'a', 'python', 'implementation', 'originally', 'written', 'in', 'python', '.']
+Lancaster Stemming : 
+ ['api', 'documentation', 'generators', 'python', 'api', 'documentation', 'generators', 'include', ':', 'sphinx', 'epydoc', 'headerdoc', 'pydoc', 'uses', 'main', 'article', ':', 'list', 'of', 'python', 'software', 'since', '2003', ',', 'python', 'has', 'consistently', 'ranked', 'in', 'the', 'top', 'ten', 'most', 'popular', 'programming', 'languages', 'in', 'the', 'tiobe', 'programming', 'community', 'index', 'where', ',', 'as', 'of', 'january', '2018', '[', 'update', ']', ',', 'it', 'is', 'the', 'fourth', 'most', 'popular', 'language', '(', 'behind', 'java', ',', 'c', ',', 'and', 'c++', ')', '.']
+Lancaster Stemming : 
+ ['[', '123', ']', 'it', 'was', 'selected', 'programming', 'language', 'of', 'the', 'year', 'in', '2007', 'and', '2010', '.']
+Lancaster Stemming : 
+ ['[', '124', ']', 'an', 'empirical', 'study', 'found', 'that', 'scripting', 'languages', ',', 'such', 'as', 'python', ',', 'are', 'more', 'productive', 'than', 'conventional', 'languages', ',', 'such', 'as', 'c', 'and', 'java', ',', 'for', 'programming', 'problems', 'involving', 'string', 'manipulation', 'and', 'search', 'in', 'a', 'dictionary', ',', 'and', 'determined', 'that', 'memory', 'consumption', 'was', 'often', '``', 'better', 'than', 'java', 'and', 'not', 'much', 'worse', 'than', 'c', 'or', 'c++', "''", '.']
+Lancaster Stemming : 
+ ['[', '125', ']', 'large', 'organizations', 'that', 'use', 'python', 'include', 'wikipedia', ',', 'google', ',', '[', '126', ']', 'yahoo', '!', ',', '[', '127', ']', 'cern', ',', '[', '128', ']', 'nasa', ',', '[', '129', ']', 'facebook', ',', '[', '130', ']', 'amazon', ',', 'instagram', ',', 'spotify', '[', '131', ']', 'and', 'some', 'smaller', 'entities', 'like', 'ilm', '[', '132', ']', 'and', 'ita', '.']
+Lancaster Stemming : 
+ ['[', '133', ']', 'the', 'social', 'news', 'networking', 'site', 'reddit', 'is', 'written', 'entirely', 'in', 'python', '.']
+Lancaster Stemming : 
+ ['python', 'can', 'serve', 'as', 'a', 'scripting', 'language', 'for', 'web', 'applications', ',', 'e.g.', ',', 'via', 'mod_wsgi', 'for', 'the', 'apache', 'web', 'server', '.']
+Lancaster Stemming : 
+ ['[', '134', ']', 'with', 'web', 'server', 'gateway', 'interface', ',', 'a', 'standard', 'api', 'has', 'evolved', 'to', 'facilitate', 'these', 'applications', '.']
+Lancaster Stemming : 
+ ['web', 'frameworks', 'like', 'django', ',', 'pylons', ',', 'pyramid', ',', 'turbogears', ',', 'web2py', ',', 'tornado', ',', 'flask', ',', 'bottle', 'and', 'zope', 'support', 'developers', 'in', 'the', 'design', 'and', 'maintenance', 'of', 'complex', 'applications', '.']
+Lancaster Stemming : 
+ ['pyjs', 'and', 'ironpython', 'can', 'be', 'used', 'to', 'develop', 'the', 'client-side', 'of', 'ajax-based', 'applications', '.']
+Lancaster Stemming : 
+ ['sqlalchemy', 'can', 'be', 'used', 'as', 'data', 'mapper', 'to', 'a', 'relational', 'database', '.']
+Lancaster Stemming : 
+ ['twisted', 'is', 'a', 'framework', 'to', 'program', 'communications', 'between', 'computers', ',', 'and', 'is', 'used', '(', 'for', 'example', ')', 'by', 'dropbox', '.']
+Lancaster Stemming : 
+ ['libraries', 'such', 'as', 'numpy', ',', 'scipy', 'and', 'matplotlib', 'allow', 'the', 'effective', 'use', 'of', 'python', 'in', 'scientific', 'computing', ',', '[', '135', ']', '[', '136', ']', 'with', 'specialized', 'libraries', 'such', 'as', 'biopython', 'and', 'astropy', 'providing', 'domain-specific', 'functionality', '.']
+Lancaster Stemming : 
+ ['sagemath', 'is', 'a', 'mathematical', 'software', 'with', 'a', '``', 'notebook', "''", 'programmable', 'in', 'python', ':', 'its', 'library', 'covers', 'many', 'aspects', 'of', 'mathematics', ',', 'including', 'algebra', ',', 'combinatorics', ',', 'numerical', 'mathematics', ',', 'number', 'theory', ',', 'and', 'calculus', '.']
+Lancaster Stemming : 
+ ['python', 'has', 'been', 'successfully', 'embedded', 'in', 'many', 'software', 'products', 'as', 'a', 'scripting', 'language', ',', 'including', 'in', 'finite', 'element', 'method', 'software', 'such', 'as', 'abaqus', ',', '3d', 'parametric', 'modeler', 'like', 'freecad', ',', '3d', 'animation', 'packages', 'such', 'as', '3ds', 'max', ',', 'blender', ',', 'cinema', '4d', ',', 'lightwave', ',', 'houdini', ',', 'maya', ',', 'modo', ',', 'motionbuilder', ',', 'softimage', ',', 'the', 'visual', 'effects', 'compositor', 'nuke', ',', '2d', 'imaging', 'programs', 'like', 'gimp', ',', '[', '137', ']', 'inkscape', ',', 'scribus', 'and', 'paint', 'shop', 'pro', ',', '[', '138', ']', 'and', 'musical', 'notation', 'programs', 'like', 'scorewriter', 'and', 'capella', '.']
+Lancaster Stemming : 
+ ['gnu', 'debugger', 'uses', 'python', 'as', 'a', 'pretty', 'printer', 'to', 'show', 'complex', 'structures', 'such', 'as', 'c++', 'containers', '.']
+Lancaster Stemming : 
+ ['esri', 'promotes', 'python', 'as', 'the', 'best', 'choice', 'for', 'writing', 'scripts', 'in', 'arcgis', '.']
+Lancaster Stemming : 
+ ['[', '139', ']', 'it', 'has', 'also', 'been', 'used', 'in', 'several', 'video', 'games', ',', '[', '140', ']', '[', '141', ']', 'and', 'has', 'been', 'adopted', 'as', 'first', 'of', 'the', 'three', 'available', 'programming', 'languages', 'in', 'google', 'app', 'engine', ',', 'the', 'other', 'two', 'being', 'java', 'and', 'go', '.']
+Lancaster Stemming : 
+ ['[', '142', ']', 'python', 'is', 'also', 'used', 'in', 'algorithmic', 'trading', 'and', 'quantitative', 'finance', '.']
+Lancaster Stemming : 
+ ['[', '143', ']', 'python', 'can', 'also', 'be', 'implemented', 'in', 'apis', 'of', 'online', 'brokerages', 'that', 'run', 'on', 'other', 'languages', 'by', 'using', 'wrappers', '.']
+Lancaster Stemming : 
+ ['[', '144', ']', 'python', 'has', 'been', 'used', 'in', 'artificial', 'intelligence', 'projects', '.']
+Lancaster Stemming : 
+ ['[', '145', ']', '[', '146', ']', '[', '147', ']', '[', '148', ']', 'as', 'a', 'scripting', 'language', 'with', 'modular', 'architecture', ',', 'simple', 'syntax', 'and', 'rich', 'text', 'processing', 'tools', ',', 'python', 'is', 'often', 'used', 'for', 'natural', 'language', 'processing', '.']
+Lancaster Stemming : 
+ ['[', '149', ']', 'many', 'operating', 'systems', 'include', 'python', 'as', 'a', 'standard', 'component', '.']
+Lancaster Stemming : 
+ ['it', 'ships', 'with', 'most', 'linux', 'distributions', ',', 'amigaos', '4', ',', 'freebsd', ',', 'netbsd', ',', 'openbsd', 'and', 'macos', ',', 'and', 'can', 'be', 'used', 'from', 'the', 'command', 'line', '(', 'terminal', ')', '.']
+Lancaster Stemming : 
+ ['many', 'linux', 'distributions', 'use', 'installers', 'written', 'in', 'python', ':', 'ubuntu', 'uses', 'the', 'ubiquity', 'installer', ',', 'while', 'red', 'hat', 'linux', 'and', 'fedora', 'use', 'the', 'anaconda', 'installer', '.']
+Lancaster Stemming : 
+ ['gentoo', 'linux', 'uses', 'python', 'in', 'its', 'package', 'management', 'system', ',', 'portage', '.']
+Lancaster Stemming : 
+ ['python', 'is', 'used', 'extensively', 'in', 'the', 'information', 'security', 'industry', ',', 'including', 'in', 'exploit', 'development', '.']
+Lancaster Stemming : 
+ ['[', '150', ']', '[', '151', ']', 'most', 'of', 'the', 'sugar', 'software', 'for', 'the', 'one', 'laptop', 'per', 'child', 'xo', ',', 'now', 'developed', 'at', 'sugar', 'labs', ',', 'is', 'written', 'in', 'python', '.']
+Lancaster Stemming : 
+ ['[', '152', ']', 'the', 'raspberry', 'pi', 'single-board', 'computer', 'project', 'has', 'adopted', 'python', 'as', 'its', 'main', 'user-programming', 'language', '.']
+Lancaster Stemming : 
+ ['libreoffice', 'includes', 'python', ',', 'and', 'intends', 'to', 'replace', 'java', 'with', 'python', '.']
+Lancaster Stemming : 
+ ['its', 'python', 'scripting', 'provider', 'is', 'a', 'core', 'feature', '[', '153', ']', 'since', 'version', '4.0', 'from', '7', 'february', '2013', '.']
+Lancaster Stemming : 
+ ['languages', 'influenced', 'by', 'python', 'python', "'s", 'design', 'and', 'philosophy', 'have', 'influenced', 'many', 'other', 'programming', 'languages', ':', 'boo', 'uses', 'indentation', ',', 'a', 'similar', 'syntax', ',', 'and', 'a', 'similar', 'object', 'model', '.']
+Lancaster Stemming : 
+ ['[', '154', ']', 'cobra', 'uses', 'indentation', 'and', 'a', 'similar', 'syntax', ',', 'and', 'its', '``', 'acknowledgements', "''", 'document', 'lists', 'python', 'first', 'among', 'languages', 'that', 'influenced', 'it', '.']
+Lancaster Stemming : 
+ ['[', '155', ']', 'however', ',', 'cobra', 'directly', 'supports', 'design-by-contract', ',', 'unit', 'tests', ',', 'and', 'optional', 'static', 'typing', '.']
+Lancaster Stemming : 
+ ['[', '156', ']', 'coffeescript', ',', 'a', 'programming', 'language', 'that', 'cross-compiles', 'to', 'javascript', ',', 'has', 'python-inspired', 'syntax', '.']
+Lancaster Stemming : 
+ ['ecmascript', 'borrowed', 'iterators', 'and', 'generators', 'from', 'python', '.']
+Lancaster Stemming : 
+ ['[', '157', ']', 'go', 'is', 'designed', 'for', 'the', '``', 'speed', 'of', 'working', 'in', 'a', 'dynamic', 'language', 'like', 'python', "''", '[', '158', ']', 'and', 'shares', 'the', 'same', 'syntax', 'for', 'slicing', 'arrays', '.']
+Lancaster Stemming : 
+ ['groovy', 'was', 'motivated', 'by', 'the', 'desire', 'to', 'bring', 'the', 'python', 'design', 'philosophy', 'to', 'java', '.']
+Lancaster Stemming : 
+ ['[', '159', ']', 'julia', 'was', 'designed', '``', 'with', 'true', 'macros', '[', '..', 'and', 'to', 'be', ']', 'as', 'usable', 'for', 'general', 'programming', 'as', 'python', '[', 'and', ']', 'should', 'be', 'as', 'fast', 'as', 'c', "''", '.']
+Lancaster Stemming : 
+ ['[', '23', ']', 'calling', 'to', 'or', 'from', 'julia', 'is', 'possible', ';', 'to', 'with', 'pycall.jl', 'and', 'a', 'python', 'package', 'pyjulia', 'allows', 'calling', ',', 'in', 'the', 'other', 'direction', ',', 'from', 'python', '.']
+Lancaster Stemming : 
+ ['kotlin', 'is', 'a', 'functional', 'programming', 'language', 'with', 'an', 'interactive', 'shell', 'similar', 'to', 'python', '.']
+Lancaster Stemming : 
+ ['however', ',', 'kotlin', 'is', 'strongly', 'typed', 'with', 'access', 'to', 'standard', 'java', 'libraries', '.']
+Lancaster Stemming : 
+ ['[', '160', ']', 'ruby', "'s", 'creator', ',', 'yukihiro', 'matsumoto', ',', 'has', 'said', ':', '``', 'i', 'wanted', 'a', 'scripting', 'language', 'that', 'was', 'more', 'powerful', 'than', 'perl', ',', 'and', 'more', 'object-oriented', 'than', 'python', '.']
+Lancaster Stemming : 
+ ['that', "'s", 'why', 'i', 'decided', 'to', 'design', 'my', 'own', 'language', '.']
+Lancaster Stemming : 
+ ['``', '[', '161', ']', 'swift', ',', 'a', 'programming', 'language', 'developed', 'by', 'apple', ',', 'has', 'some', 'python-inspired', 'syntax', '.']
+Lancaster Stemming : 
+ ['[', '162', ']', 'gdscript', ',', 'dynamically', 'typed', 'programming', 'language', 'used', 'to', 'create', 'video-games', '.']
+Lancaster Stemming : 
+ ['it', 'is', 'extremely', 'similar', 'to', 'python', 'with', 'a', 'few', 'minor', 'differences', '.']
+Lancaster Stemming : 
+ ['python', "'s", 'development', 'practices', 'have', 'also', 'been', 'emulated', 'by', 'other', 'languages', '.']
+Lancaster Stemming : 
+ ['for', 'example', ',', 'the', 'practice', 'of', 'requiring', 'a', 'document', 'describing', 'the', 'rationale', 'for', ',', 'and', 'issues', 'surrounding', ',', 'a', 'change', 'to', 'the', 'language', '(', 'in', 'python', ',', 'a', 'pep', ')', 'is', 'also', 'used', 'in', 'tcl', '[', '163', ']', 'and', 'erlang', '.']
+Lancaster Stemming : 
+ ['[', '164', ']', 'python', 'received', 'tiobe', "'s", 'programming', 'language', 'of', 'the', 'year', 'awards', 'in', '2007', 'and', '2010', '.']
+Lancaster Stemming : 
+ ['the', 'award', 'is', 'given', 'to', 'the', 'language', 'with', 'the', 'greatest', 'growth', 'in', 'popularity', 'over', 'the', 'year', ',', 'as', 'measured', 'by', 'the', 'tiobe', 'index', '.']
+Lancaster Stemming : 
+ ['[', '165', ']', 'see', 'also', 'free', 'software', 'portal', 'python', 'programming', 'portal', 'history', 'of', 'python', 'comparison', 'of', 'integrated', 'development', 'environments', 'for', 'python', 'comparison', 'of', 'programming', 'languages', 'list', 'of', 'programming', 'languages', 'pip', '(', 'package', 'manager', ')', 'off-side', 'rule', 'references', '^', 'a', 'b', 'guttag', ',', 'john', 'v.', '(', '2016-08-12', ')', '.']
+Lancaster Stemming : 
+ ['introduction', 'to', 'computation', 'and', 'programming', 'using', 'python', ':', 'with', 'application', 'to', 'understanding', 'data', '.']
+Lancaster Stemming : 
+ ['mit', 'press', '.']
+Lancaster Stemming : 
+ ['isbn', '978-0-262-52962-4', '.']
+Lancaster Stemming : 
+ ['^', 'deily', ',', 'ned', '(', '28', 'march', '2018', ')', '.']
+Lancaster Stemming : 
+ ['``', 'python', '3.7.0', 'is', 'now', 'available', "''", '.']
+Lancaster Stemming : 
+ ['python', 'insider', '.']
+Lancaster Stemming : 
+ ['the', 'python', 'core', 'developers', '.']
+Lancaster Stemming : 
+ ['retrieved', '29', 'march', '2018', '.']
+Lancaster Stemming : 
+ ['^', 'peterson', ',', 'benjamin', '(', '1', 'may', '2018', ')', '.']
+Lancaster Stemming : 
+ ['``', 'python', '2.7.15', 'released', "''", '.']
+Lancaster Stemming : 
+ ['python', 'insider', '.']
+Lancaster Stemming : 
+ ['the', 'python', 'core', 'developers', '.']
+Lancaster Stemming : 
+ ['retrieved', '1', 'may', '2018', '.']
+Lancaster Stemming : 
+ ['^', '``', 'pep', '483', '--', 'the', 'theory', 'of', 'type', 'hints', "''", '.']
+Lancaster Stemming : 
+ ['python.org', '.']
+Lancaster Stemming : 
+ ['^', 'file', 'extension', '.pyo', 'was', 'removed', 'in', 'python', '3.5', '.']
+Lancaster Stemming : 
+ ['see', 'pep', '0488', '^', 'holth', ',', 'moore', '(', '30', 'march', '2014', ')', '.']
+Lancaster Stemming : 
+ ['``', 'pep', '0441', '--', 'improving', 'python', 'zip', 'application', 'support', "''", '.']
+Lancaster Stemming : 
+ ['retrieved', '12', 'november', '2015', '.']
+Lancaster Stemming : 
+ ['^', 'a', 'b', '``', 'why', 'was', 'python', 'created', 'in', 'the', 'first', 'place', '?', '``', '.']
+Lancaster Stemming : 
+ ['general', 'python', 'faq', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '22', 'march', '2007', '.']
+Lancaster Stemming : 
+ ['^', 'kuchling', ',', 'andrew', 'm.', '(', '22', 'december', '2006', ')', '.']
+Lancaster Stemming : 
+ ['``', 'interview', 'with', 'guido', 'van', 'rossum', '(', 'july', '1998', ')', "''", '.']
+Lancaster Stemming : 
+ ['amk.ca', '.']
+Lancaster Stemming : 
+ ['archived', 'from', 'the', 'original', 'on', '1', 'may', '2007', '.']
+Lancaster Stemming : 
+ ['retrieved', '12', 'march', '2012', '.']
+Lancaster Stemming : 
+ ['^', 'https', ':', '//docs.python.org/3/library/itertools.html', '^', 'van', 'rossum', ',', 'guido', '(', '1993', ')', '.']
+Lancaster Stemming : 
+ ['``', 'an', 'introduction', 'to', 'python', 'for', 'unix/c', 'programmers', "''", '.']
+Lancaster Stemming : 
+ ['proceedings', 'of', 'the', 'nluug', 'najaarsconferentie', '(', 'dutch', 'unix', 'users', 'group', ')', '.']
+Lancaster Stemming : 
+ ['even', 'though', 'the', 'design', 'of', 'c', 'is', 'far', 'from', 'ideal', ',', 'its', 'influence', 'on', 'python', 'is', 'considerable', '.']
+Lancaster Stemming : 
+ ['^', 'a', 'b', '``', 'classes', "''", '.']
+Lancaster Stemming : 
+ ['the', 'python', 'tutorial', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '20', 'february', '2012', '.']
+Lancaster Stemming : 
+ ['it', 'is', 'a', 'mixture', 'of', 'the', 'class', 'mechanisms', 'found', 'in', 'c++', 'and', 'modula-3', '^', 'lundh', ',', 'fredrik', '.']
+Lancaster Stemming : 
+ ['``', 'call', 'by', 'object', "''", '.']
+Lancaster Stemming : 
+ ['effbot.org', '.']
+Lancaster Stemming : 
+ ['retrieved', '21', 'november', '2017.', 'replace', '``', 'clu', "''", 'with', '``', 'python', "''", ',', '``', 'record', "''", 'with', '``', 'instance', "''", ',', 'and', '``', 'procedure', "''", 'with', '``', 'function', 'or', 'method', "''", ',', 'and', 'you', 'get', 'a', 'pretty', 'accurate', 'description', 'of', 'python', "'s", 'object', 'model', '.']
+Lancaster Stemming : 
+ ['^', 'simionato', ',', 'michele', '.']
+Lancaster Stemming : 
+ ['``', 'the', 'python', '2.3', 'method', 'resolution', 'order', "''", '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['the', 'c3', 'method', 'itself', 'has', 'nothing', 'to', 'do', 'with', 'python', ',', 'since', 'it', 'was', 'invented', 'by', 'people', 'working', 'on', 'dylan', 'and', 'it', 'is', 'described', 'in', 'a', 'paper', 'intended', 'for', 'lispers', '^', 'kuchling', ',', 'a.', 'm.', '``', 'functional', 'programming', 'howto', "''", '.']
+Lancaster Stemming : 
+ ['python', 'v2.7.2', 'documentation', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '9', 'february', '2012', '.']
+Lancaster Stemming : 
+ ['^', 'schemenauer', ',', 'neil', ';', 'peters', ',', 'tim', ';', 'hetland', ',', 'magnus', 'lie', '(', '18', 'may', '2001', ')', '.']
+Lancaster Stemming : 
+ ['``', 'pep', '255', '–', 'simple', 'generators', "''", '.']
+Lancaster Stemming : 
+ ['python', 'enhancement', 'proposals', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '9', 'february', '2012', '.']
+Lancaster Stemming : 
+ ['^', 'smith', ',', 'kevin', 'd.', ';', 'jewett', ',', 'jim', 'j.', ';', 'montanaro', ',', 'skip', ';', 'baxter', ',', 'anthony', '(', '2', 'september', '2004', ')', '.']
+Lancaster Stemming : 
+ ['``', 'pep', '318', '–', 'decorators', 'for', 'functions', 'and', 'methods', "''", '.']
+Lancaster Stemming : 
+ ['python', 'enhancement', 'proposals', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '24', 'february', '2012', '.']
+Lancaster Stemming : 
+ ['^', '``', 'more', 'control', 'flow', 'tools', "''", '.']
+Lancaster Stemming : 
+ ['python', '3', 'documentation', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '24', 'july', '2015', '.']
+Lancaster Stemming : 
+ ['^', 'https', ':', '//docs.python.org/3/library/itertools.html', '^', '``', 'coffeescript', 'borrows', 'chained', 'comparisons', 'from', 'python', "''", '.']
+Lancaster Stemming : 
+ ['^', '``', 'genie', 'language', '-', 'a', 'brief', 'guide', "''", '.']
+Lancaster Stemming : 
+ ['retrieved', '28', 'december', '2015', '.']
+Lancaster Stemming : 
+ ['^', '``', 'perl', 'and', 'python', 'influences', 'in', 'javascript', "''", '.']
+Lancaster Stemming : 
+ ['www.2ality.com', '.']
+Lancaster Stemming : 
+ ['24', 'february', '2013', '.']
+Lancaster Stemming : 
+ ['retrieved', '15', 'may', '2015', '.']
+Lancaster Stemming : 
+ ['^', 'rauschmayer', ',', 'axel', '.']
+Lancaster Stemming : 
+ ['``', 'chapter', '3', ':', 'the', 'nature', 'of', 'javascript', ';', 'influences', "''", '.']
+Lancaster Stemming : 
+ ["o'reilly", ',', 'speaking', 'javascript', '.']
+Lancaster Stemming : 
+ ['retrieved', '15', 'may', '2015', '.']
+Lancaster Stemming : 
+ ['^', 'a', 'b', '``', 'why', 'we', 'created', 'julia', "''", '.']
+Lancaster Stemming : 
+ ['julia', 'website', '.']
+Lancaster Stemming : 
+ ['february', '2012', '.']
+Lancaster Stemming : 
+ ['retrieved', '5', 'june', '2014', '.']
+Lancaster Stemming : 
+ ['^', 'ring', 'team', '(', '4', 'december', '2017', ')', '.']
+Lancaster Stemming : 
+ ['``', 'ring', 'and', 'other', 'languages', "''", '.']
+Lancaster Stemming : 
+ ['ring-lang.net', '.']
+Lancaster Stemming : 
+ ['ring-lang', '.']
+Lancaster Stemming : 
+ ['^', 'bini', ',', 'ola', '(', '2007', ')', '.']
+Lancaster Stemming : 
+ ['practical', 'jruby', 'on', 'rails', 'web', '2.0', 'projects', ':', 'bringing', 'ruby', 'on', 'rails', 'to', 'the', 'java', 'platform', '.']
+Lancaster Stemming : 
+ ['berkeley', ':', 'apress', '.']
+Lancaster Stemming : 
+ ['p.', '3', '.']
+Lancaster Stemming : 
+ ['isbn', '978-1-59059-881-8', '.']
+Lancaster Stemming : 
+ ['^', 'lattner', ',', 'chris', '(', '3', 'june', '2014', ')', '.']
+Lancaster Stemming : 
+ ['``', 'chris', 'lattner', "'s", 'homepage', "''", '.']
+Lancaster Stemming : 
+ ['chris', 'lattner', '.']
+Lancaster Stemming : 
+ ['retrieved', '3', 'june', '2014', '.']
+Lancaster Stemming : 
+ ['the', 'swift', 'language', 'is', 'the', 'product', 'of', 'tireless', 'effort', 'from', 'a', 'team', 'of', 'language', 'experts', ',', 'documentation', 'gurus', ',', 'compiler', 'optimization', 'ninjas', ',', 'and', 'an', 'incredibly', 'important', 'internal', 'dogfooding', 'group', 'who', 'provided', 'feedback', 'to', 'help', 'refine', 'and', 'battle-test', 'ideas', '.']
+Lancaster Stemming : 
+ ['of', 'course', ',', 'it', 'also', 'greatly', 'benefited', 'from', 'the', 'experiences', 'hard-won', 'by', 'many', 'other', 'languages', 'in', 'the', 'field', ',', 'drawing', 'ideas', 'from', 'objective-c', ',', 'rust', ',', 'haskell', ',', 'ruby', ',', 'python', ',', 'c', '#', ',', 'clu', ',', 'and', 'far', 'too', 'many', 'others', 'to', 'list', '.']
+Lancaster Stemming : 
+ ['^', 'kuhlman', ',', 'dave', '.']
+Lancaster Stemming : 
+ ['``', 'a', 'python', 'book', ':', 'beginning', 'python', ',', 'advanced', 'python', ',', 'and', 'python', 'exercises', "''", '.']
+Lancaster Stemming : 
+ ['archived', 'from', 'the', 'original', 'on', '23', 'june', '2012', '.']
+Lancaster Stemming : 
+ ['^', '``', 'guido', 'van', 'rossum', 'stepping', 'down', 'from', 'role', 'as', 'python', "'s", 'benevolent', 'dictator', 'for', 'life', '|', 'linux', 'journal', "''", '.']
+Lancaster Stemming : 
+ ['www.linuxjournal.com', '.']
+Lancaster Stemming : 
+ ['^', '``', 'python', 'boss', 'guido', 'van', 'rossum', 'steps', 'down', 'after', '30', 'years', '|', 'theinquirer', "''", '.']
+Lancaster Stemming : 
+ ['http', ':', '//www.theinquirer.net', '.']
+Lancaster Stemming : 
+ ['external', 'link', 'in', '|website=', '(', 'help', ')', '^', '``', 'about', 'python', "''", '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '24', 'april', '2012.', ',', 'second', 'section', '``', 'fans', 'of', 'python', 'use', 'the', 'phrase', '``', 'batteries', 'included', "''", 'to', 'describe', 'the', 'standard', 'library', ',', 'which', 'covers', 'everything', 'from', 'asynchronous', 'processing', 'to', 'zip', 'files', '.', "''"]
+Lancaster Stemming : 
+ ['^', '``', 'history', 'and', 'license', "''", '.']
+Lancaster Stemming : 
+ ['retrieved', '5', 'december', '2016', '.']
+Lancaster Stemming : 
+ ['``', 'all', 'python', 'releases', 'are', 'open', 'source', "''", '^', 'a', 'b', 'venners', ',', 'bill', '(', '13', 'january', '2003', ')', '.']
+Lancaster Stemming : 
+ ['``', 'the', 'making', 'of', 'python', "''", '.']
+Lancaster Stemming : 
+ ['artima', 'developer', '.']
+Lancaster Stemming : 
+ ['artima', '.']
+Lancaster Stemming : 
+ ['retrieved', '22', 'march', '2007', '.']
+Lancaster Stemming : 
+ ['^', 'van', 'rossum', ',', 'guido', '(', '20', 'january', '2009', ')', '.']
+Lancaster Stemming : 
+ ['``', 'a', 'brief', 'timeline', 'of', 'python', "''", '.']
+Lancaster Stemming : 
+ ['the', 'history', 'of', 'python', '.']
+Lancaster Stemming : 
+ ['google', '.']
+Lancaster Stemming : 
+ ['retrieved', '20', 'january', '2009', '.']
+Lancaster Stemming : 
+ ['^', 'van', 'rossum', ',', 'guido', '(', '29', 'august', '2000', ')', '.']
+Lancaster Stemming : 
+ ['``', 'setl', '(', 'was', ':', 'lukewarm', 'about', 'range', 'literals', ')', "''", '.']
+Lancaster Stemming : 
+ ['python-dev', '(', 'mailing', 'list', ')', '.']
+Lancaster Stemming : 
+ ['retrieved', '13', 'march', '2011', '.']
+Lancaster Stemming : 
+ ['^', 'fairchild', ',', 'carlie', '(', '12', 'july', '2018', ')', '.']
+Lancaster Stemming : 
+ ['``', 'guido', 'van', 'rossum', 'stepping', 'down', 'from', 'role', 'as', 'python', "'s", 'benevolent', 'dictator', 'for', 'life', "''", '.']
+Lancaster Stemming : 
+ ['linux', 'journal', '.']
+Lancaster Stemming : 
+ ['retrieved', '13', 'july', '2018', '.']
+Lancaster Stemming : 
+ ['^', 'van', 'rossum', ',', 'guido', '(', '1996', ')', '.']
+Lancaster Stemming : 
+ ['``', 'foreword', 'for', '``', 'programming', 'python', "''", '(', '1st', 'ed', '.', ')', "''", '.']
+Lancaster Stemming : 
+ ['retrieved', '10', 'july', '2014', '.']
+Lancaster Stemming : 
+ ['^', 'kuchling', ',', 'a.', 'm.', ';', 'zadka', ',', 'moshe', '(', '16', 'october', '2000', ')', '.']
+Lancaster Stemming : 
+ ['``', 'what', "'s", 'new', 'in', 'python', '2.0', "''", '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '11', 'february', '2012', '.']
+Lancaster Stemming : 
+ ['^', '``', 'python', '3.0', 'release', "''", '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '8', 'july', '2009', '.']
+Lancaster Stemming : 
+ ['^', 'van', 'rossum', ',', 'guido', '(', '5', 'april', '2006', ')', '.']
+Lancaster Stemming : 
+ ['``', 'pep', '3000', '–', 'python', '3000', "''", '.']
+Lancaster Stemming : 
+ ['python', 'enhancement', 'proposals', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '27', 'june', '2009', '.']
+Lancaster Stemming : 
+ ['^', '``', 'automated', 'python', '2', 'to', '3', 'code', 'translation', '—', 'python', 'documentation', "''", '.']
+Lancaster Stemming : 
+ ['retrieved', '11', 'february', '2018', '.']
+Lancaster Stemming : 
+ ['^', '``', 'pep', '373', '--', 'python', '2.7', 'release', 'schedule', "''", '.']
+Lancaster Stemming : 
+ ['python.org', '.']
+Lancaster Stemming : 
+ ['retrieved', '9', 'january', '2017', '.']
+Lancaster Stemming : 
+ ['^', '``', 'pep', '466', '--', 'network', 'security', 'enhancements', 'for', 'python', '2.7.x', "''", '.']
+Lancaster Stemming : 
+ ['python.org', '.']
+Lancaster Stemming : 
+ ['retrieved', '9', 'january', '2017', '.']
+Lancaster Stemming : 
+ ['^', '``', 'google', 'open', 'source', 'blog', ':', 'grumpy', ':', 'go', 'running', 'python', '!', '``', '.']
+Lancaster Stemming : 
+ ['4', 'january', '2017', '.']
+Lancaster Stemming : 
+ ['retrieved', '7', 'march', '2017', '.']
+Lancaster Stemming : 
+ ['^', 'the', 'cain', 'gang', 'ltd.', '``', 'python', 'metaclasses', ':', 'who', '?']
+Lancaster Stemming : 
+ ['why', '?']
+Lancaster Stemming : 
+ ['when', '?', "''"]
+Lancaster Stemming : 
+ ['(', 'pdf', ')', '.']
+Lancaster Stemming : 
+ ['archived', 'from', 'the', 'original', '(', 'pdf', ')', 'on', '10', 'december', '2009', '.']
+Lancaster Stemming : 
+ ['retrieved', '27', 'june', '2009', '.']
+Lancaster Stemming : 
+ ['^', '``', '3.3', '.']
+Lancaster Stemming : 
+ ['special', 'method', 'names', "''", '.']
+Lancaster Stemming : 
+ ['the', 'python', 'language', 'reference', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '27', 'june', '2009', '.']
+Lancaster Stemming : 
+ ['^', '``', 'pydbc', ':', 'method', 'preconditions', ',', 'method', 'postconditions', 'and', 'class', 'invariants', 'for', 'python', "''", '.']
+Lancaster Stemming : 
+ ['retrieved', '24', 'september', '2011', '.']
+Lancaster Stemming : 
+ ['^', '``', 'contracts', 'for', 'python', "''", '.']
+Lancaster Stemming : 
+ ['retrieved', '24', 'september', '2011', '.']
+Lancaster Stemming : 
+ ['^', '``', 'pydatalog', "''", '.']
+Lancaster Stemming : 
+ ['retrieved', '22', 'july', '2012', '.']
+Lancaster Stemming : 
+ ['^', 'a', 'b', 'hettinger', ',', 'raymond', '(', '30', 'january', '2002', ')', '.']
+Lancaster Stemming : 
+ ['``', 'pep', '289', '–', 'generator', 'expressions', "''", '.']
+Lancaster Stemming : 
+ ['python', 'enhancement', 'proposals', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '19', 'february', '2012', '.']
+Lancaster Stemming : 
+ ['^', '``', '6.5', 'itertools', '–', 'functions', 'creating', 'iterators', 'for', 'efficient', 'looping', "''", '.']
+Lancaster Stemming : 
+ ['docs.python.org', '.']
+Lancaster Stemming : 
+ ['retrieved', '22', 'november', '2016', '.']
+Lancaster Stemming : 
+ ['^', 'a', 'b', 'peters', ',', 'tim', '(', '19', 'august', '2004', ')', '.']
+Lancaster Stemming : 
+ ['``', 'pep', '20', '–', 'the', 'zen', 'of', 'python', "''", '.']
+Lancaster Stemming : 
+ ['python', 'enhancement', 'proposals', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '24', 'november', '2008', '.']
+Lancaster Stemming : 
+ ['^', 'martelli', ',', 'alex', ';', 'ravenscroft', ',', 'anna', ';', 'ascher', ',', 'david', '(', '2005', ')', '.']
+Lancaster Stemming : 
+ ['python', 'cookbook', ',', '2nd', 'edition', '.']
+Lancaster Stemming : 
+ ["o'reilly", 'media', '.']
+Lancaster Stemming : 
+ ['p.', '230', '.']
+Lancaster Stemming : 
+ ['isbn', '978-0-596-00797-3', '.']
+Lancaster Stemming : 
+ ['^', '``', 'python', 'culture', "''", '.']
+Lancaster Stemming : 
+ ['^', '``', 'general', 'python', 'faq', "''", '.']
+Lancaster Stemming : 
+ ['python', 'v2.7.3', 'documentation', '.']
+Lancaster Stemming : 
+ ['docs.python.org', '.']
+Lancaster Stemming : 
+ ['retrieved', '3', 'december', '2012', '.']
+Lancaster Stemming : 
+ ['^', '``', '15', 'ways', 'python', 'is', 'a', 'powerful', 'force', 'on', 'the', 'web', "''", '.']
+Lancaster Stemming : 
+ ['^', '``', 'pprint', '-', 'data', 'pretty', 'printer', '-', 'python', 'documentation', "''", '.']
+Lancaster Stemming : 
+ ['^', 'goodger', ',', 'david', '.']
+Lancaster Stemming : 
+ ['``', 'code', 'like', 'a', 'pythonista', ':', 'idiomatic', 'python', "''", '.']
+Lancaster Stemming : 
+ ['^', '``', 'how', 'to', 'think', 'like', 'a', 'pythonista', "''", '.']
+Lancaster Stemming : 
+ ['^', '``', 'is', 'python', 'a', 'good', 'language', 'for', 'beginning', 'programmers', '?', '``', '.']
+Lancaster Stemming : 
+ ['general', 'python', 'faq', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '21', 'march', '2007', '.']
+Lancaster Stemming : 
+ ['^', '``', 'myths', 'about', 'indentation', 'in', 'python', "''", '.']
+Lancaster Stemming : 
+ ['secnetix.de', '.']
+Lancaster Stemming : 
+ ['retrieved', '19', 'april', '2011', '.']
+Lancaster Stemming : 
+ ['^', '``', 'python', '2.5', 'release', "''", '.']
+Lancaster Stemming : 
+ ['python.org', '.']
+Lancaster Stemming : 
+ ['^', '``', 'highlights', ':', 'python', '2.5', "''", '.']
+Lancaster Stemming : 
+ ['python.org', '.']
+Lancaster Stemming : 
+ ['^', 'sweigart', ',', 'al', '(', '2010', ')', '.']
+Lancaster Stemming : 
+ ['``', 'appendix', 'a', ':', 'differences', 'between', 'python', '2', 'and', '3', "''", '.']
+Lancaster Stemming : 
+ ['invent', 'your', 'own', 'computer', 'games', 'with', 'python', '(', '2', 'ed', '.', ')', '.']
+Lancaster Stemming : 
+ ['isbn', '978-0-9821060-1-3', '.']
+Lancaster Stemming : 
+ ['retrieved', '20', 'february', '2014', '.']
+Lancaster Stemming : 
+ ['^', 'van', 'rossum', ',', 'guido', '(', '22', 'april', '2009', ')', '.']
+Lancaster Stemming : 
+ ['``', 'tail', 'recursion', 'elimination', "''", '.']
+Lancaster Stemming : 
+ ['neopythonic.blogspot.be', '.']
+Lancaster Stemming : 
+ ['retrieved', '3', 'december', '2012', '.']
+Lancaster Stemming : 
+ ['^', 'van', 'rossum', ',', 'guido', '(', '9', 'february', '2006', ')', '.']
+Lancaster Stemming : 
+ ['``', 'language', 'design', 'is', 'not', 'just', 'solving', 'puzzles', "''", '.']
+Lancaster Stemming : 
+ ['artima', 'forums', '.']
+Lancaster Stemming : 
+ ['artima', '.']
+Lancaster Stemming : 
+ ['retrieved', '21', 'march', '2007', '.']
+Lancaster Stemming : 
+ ['^', 'van', 'rossum', ',', 'guido', ';', 'eby', ',', 'phillip', 'j', '.']
+Lancaster Stemming : 
+ ['(', '10', 'may', '2005', ')', '.']
+Lancaster Stemming : 
+ ['``', 'pep', '342', '–', 'coroutines', 'via', 'enhanced', 'generators', "''", '.']
+Lancaster Stemming : 
+ ['python', 'enhancement', 'proposals', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '19', 'february', '2012', '.']
+Lancaster Stemming : 
+ ['^', '``', 'pep', '380', "''", '.']
+Lancaster Stemming : 
+ ['python.org', '.']
+Lancaster Stemming : 
+ ['retrieved', '3', 'december', '2012', '.']
+Lancaster Stemming : 
+ ['^', '``', 'division', "''", '.']
+Lancaster Stemming : 
+ ['python.org', '.']
+Lancaster Stemming : 
+ ['^', '``', 'pep', '0465', '--', 'a', 'dedicated', 'infix', 'operator', 'for', 'matrix', 'multiplication', "''", '.']
+Lancaster Stemming : 
+ ['python.org', '.']
+Lancaster Stemming : 
+ ['retrieved', '1', 'january', '2016', '.']
+Lancaster Stemming : 
+ ['^', '``', 'python', '3.5.1', 'release', 'and', 'changelog', "''", '.']
+Lancaster Stemming : 
+ ['python.org', '.']
+Lancaster Stemming : 
+ ['retrieved', '1', 'january', '2016', '.']
+Lancaster Stemming : 
+ ['^', '``', 'chapter', '15', '.']
+Lancaster Stemming : 
+ ['expressions', '-', '15.21.1', '.']
+Lancaster Stemming : 
+ ['numerical', 'equality', 'operators', '==', 'and', '!', '=', "''", '.']
+Lancaster Stemming : 
+ ['oracle', 'corporation', '.']
+Lancaster Stemming : 
+ ['retrieved', '28', 'august', '2016', '.']
+Lancaster Stemming : 
+ ['^', '``', 'chapter', '15', '.']
+Lancaster Stemming : 
+ ['expressions', '-', '15.21.3', '.']
+Lancaster Stemming : 
+ ['reference', 'equality', 'operators', '==', 'and', '!', '=', "''", '.']
+Lancaster Stemming : 
+ ['oracle', 'corporation', '.']
+Lancaster Stemming : 
+ ['retrieved', '28', 'august', '2016', '.']
+Lancaster Stemming : 
+ ['^', 'van', 'rossum', ',', 'guido', ';', 'hettinger', ',', 'raymond', '(', '7', 'february', '2003', ')', '.']
+Lancaster Stemming : 
+ ['``', 'pep', '308', '–', 'conditional', 'expressions', "''", '.']
+Lancaster Stemming : 
+ ['python', 'enhancement', 'proposals', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '13', 'july', '2011', '.']
+Lancaster Stemming : 
+ ['^', '``', '4', '.']
+Lancaster Stemming : 
+ ['built-in', 'types', '—', 'python', '3.6.3rc1', 'documentation', "''", '.']
+Lancaster Stemming : 
+ ['python.org', '.']
+Lancaster Stemming : 
+ ['retrieved', '1', 'october', '2017', '.']
+Lancaster Stemming : 
+ ['^', 'a', 'b', '``', 'pep', '498', '--', 'literal', 'string', 'interpolation', "''", '.']
+Lancaster Stemming : 
+ ['python.org', '.']
+Lancaster Stemming : 
+ ['retrieved', '8', 'march', '2017', '.']
+Lancaster Stemming : 
+ ['^', '``', 'why', 'must', "'self", "'", 'be', 'used', 'explicitly', 'in', 'method', 'definitions', 'and', 'calls', '?', '``', '.']
+Lancaster Stemming : 
+ ['design', 'and', 'history', 'faq', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '19', 'february', '2012', '.']
+Lancaster Stemming : 
+ ['^', '``', 'the', 'python', 'language', 'reference', ',', 'section', '3.3', '.']
+Lancaster Stemming : 
+ ['new-style', 'and', 'classic', 'classes', ',', 'for', 'release', '2.7.1', "''", '.']
+Lancaster Stemming : 
+ ['retrieved', '12', 'january', '2011', '.']
+Lancaster Stemming : 
+ ['^', '``', 'type', 'hinting', 'for', 'python', "''", '.']
+Lancaster Stemming : 
+ ['lwn.net', '.']
+Lancaster Stemming : 
+ ['24', 'december', '2014', '.']
+Lancaster Stemming : 
+ ['retrieved', '5', 'may', '2015', '.']
+Lancaster Stemming : 
+ ['^', '``', 'mypy', '-', 'optional', 'static', 'typing', 'for', 'python', "''", '.']
+Lancaster Stemming : 
+ ['retrieved', '28', 'january', '2017', '.']
+Lancaster Stemming : 
+ ['^', 'zadka', ',', 'moshe', ';', 'van', 'rossum', ',', 'guido', '(', '11', 'march', '2001', ')', '.']
+Lancaster Stemming : 
+ ['``', 'pep', '237', '–', 'unifying', 'long', 'integers', 'and', 'integers', "''", '.']
+Lancaster Stemming : 
+ ['python', 'enhancement', 'proposals', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '24', 'september', '2011', '.']
+Lancaster Stemming : 
+ ['^', '``', 'pep', '465', '--', 'a', 'dedicated', 'infix', 'operator', 'for', 'matrix', 'multiplication', "''", '.']
+Lancaster Stemming : 
+ ['python.org', '.']
+Lancaster Stemming : 
+ ['^', '``', 'the', 'tilde', 'operator', 'in', 'python', '-', 'stackoverflow', "''", '.']
+Lancaster Stemming : 
+ ['stackoverflow.com', '.']
+Lancaster Stemming : 
+ ['^', '``', 'bitwiseoperators', '-', 'python', 'wiki', "''", '.']
+Lancaster Stemming : 
+ ['wiki.python.org', '.']
+Lancaster Stemming : 
+ ['^', 'zadka', ',', 'moshe', ';', 'van', 'rossum', ',', 'guido', '(', '11', 'march', '2001', ')', '.']
+Lancaster Stemming : 
+ ['``', 'pep', '238', '–', 'changing', 'the', 'division', 'operator', "''", '.']
+Lancaster Stemming : 
+ ['python', 'enhancement', 'proposals', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '23', 'october', '2013', '.']
+Lancaster Stemming : 
+ ['^', '``', 'why', 'python', "'s", 'integer', 'division', 'floors', "''", '.']
+Lancaster Stemming : 
+ ['retrieved', '25', 'august', '2010', '.']
+Lancaster Stemming : 
+ ['^', '``', 'round', "''", ',', 'the', 'python', 'standard', 'library', ',', 'release', '2.7', ',', '§2', ':', 'built-in', 'functions', ',', 'retrieved', '14', 'august', '2011', '^', '``', 'round', "''", ',', 'the', 'python', 'standard', 'library', ',', 'release', '3.2', ',', '§2', ':', 'built-in', 'functions', ',', 'retrieved', '14', 'august', '2011', '^', 'beazley', ',', 'david', 'm.', '(', '2009', ')', '.']
+Lancaster Stemming : 
+ ['python', 'essential', 'reference', '(', '4th', 'ed', '.', ')', '.']
+Lancaster Stemming : 
+ ['p.', '66', '.']
+Lancaster Stemming : 
+ ['^', 'kernighan', ',', 'brian', 'w.', ';', 'ritchie', ',', 'dennis', 'm.', '(', '1988', ')', '.']
+Lancaster Stemming : 
+ ['the', 'c', 'programming', 'language', '(', '2nd', 'ed', '.', ')', '.']
+Lancaster Stemming : 
+ ['p.', '206', '.']
+Lancaster Stemming : 
+ ['^', '``', 'built-in', 'type', "''", '.']
+Lancaster Stemming : 
+ ['docs.python.org', '.']
+Lancaster Stemming : 
+ ['^', 'batista', ',', 'facundo', '.']
+Lancaster Stemming : 
+ ['``', 'pep', '0327', '--', 'decimal', 'data', 'type', "''", '.']
+Lancaster Stemming : 
+ ['python.org', '.']
+Lancaster Stemming : 
+ ['retrieved', '26', 'september', '2015', '.']
+Lancaster Stemming : 
+ ['^', '``', 'what', "'s", 'new', 'in', 'python', '2.6', '—', 'python', 'v2.6.9', 'documentation', "''", '.']
+Lancaster Stemming : 
+ ['docs.python.org', '.']
+Lancaster Stemming : 
+ ['retrieved', '26', 'september', '2015', '.']
+Lancaster Stemming : 
+ ['^', 'piotrowski', ',', 'przemyslaw', '(', 'july', '2006', ')', '.']
+Lancaster Stemming : 
+ ['``', 'build', 'a', 'rapid', 'web', 'development', 'environment', 'for', 'python', 'server', 'pages', 'and', 'oracle', "''", '.']
+Lancaster Stemming : 
+ ['oracle', 'technology', 'network', '.']
+Lancaster Stemming : 
+ ['oracle', '.']
+Lancaster Stemming : 
+ ['retrieved', '12', 'march', '2012', '.']
+Lancaster Stemming : 
+ ['^', 'batista', ',', 'facundo', '(', '17', 'october', '2003', ')', '.']
+Lancaster Stemming : 
+ ['``', 'pep', '327', '–', 'decimal', 'data', 'type', "''", '.']
+Lancaster Stemming : 
+ ['python', 'enhancement', 'proposals', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '24', 'november', '2008', '.']
+Lancaster Stemming : 
+ ['^', 'eby', ',', 'phillip', 'j', '.']
+Lancaster Stemming : 
+ ['(', '7', 'december', '2003', ')', '.']
+Lancaster Stemming : 
+ ['``', 'pep', '333', '–', 'python', 'web', 'server', 'gateway', 'interface', 'v1.0', "''", '.']
+Lancaster Stemming : 
+ ['python', 'enhancement', 'proposals', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '19', 'february', '2012', '.']
+Lancaster Stemming : 
+ ['^', 'debill', ',', 'erik', '.']
+Lancaster Stemming : 
+ ['``', 'module', 'counts', "''", '.']
+Lancaster Stemming : 
+ ['modulecounts', '.']
+Lancaster Stemming : 
+ ['retrieved', '20', 'september', '2017', '.']
+Lancaster Stemming : 
+ ['^', '``', '20+', 'python', 'web', 'scraping', 'examples', '(', 'beautiful', 'soup', '&', 'selenium', ')', '-', 'like', 'geeks', "''", '.']
+Lancaster Stemming : 
+ ['likegeeks.com', '.']
+Lancaster Stemming : 
+ ['5', 'december', '2017', '.']
+Lancaster Stemming : 
+ ['retrieved', '12', 'march', '2018', '.']
+Lancaster Stemming : 
+ ['^', 'stack', 'overflow', ',', '“', 'what', "'s", 'the', 'difference', 'between', 'an', 'python', 'module', 'and', 'a', 'python', 'package', '?', '”', '^', 'python', '3.7.0', 'documentation', ',', 'wikidata', 'q56718217', '“', 'package', '”', 'in', 'the', 'glossary', '^', 'enthought', ',', 'canopy', '.']
+Lancaster Stemming : 
+ ['``', 'canopy', "''", '.']
+Lancaster Stemming : 
+ ['www.enthought.com', '.']
+Lancaster Stemming : 
+ ['retrieved', '20', 'august', '2016', '.']
+Lancaster Stemming : 
+ ['^', 'van', 'rossum', ',', 'guido', '(', '5', 'june', '2001', ')', '.']
+Lancaster Stemming : 
+ ['``', 'pep', '7', '–', 'style', 'guide', 'for', 'c', 'code', "''", '.']
+Lancaster Stemming : 
+ ['python', 'enhancement', 'proposals', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '24', 'november', '2008', '.']
+Lancaster Stemming : 
+ ['^', '``', 'cpython', 'byte', 'code', "''", '.']
+Lancaster Stemming : 
+ ['docs.python.org', '.']
+Lancaster Stemming : 
+ ['retrieved', '16', 'february', '2016', '.']
+Lancaster Stemming : 
+ ['^', '``', 'python', '2.5', 'internals', "''", '(', 'pdf', ')', '.']
+Lancaster Stemming : 
+ ['retrieved', '19', 'april', '2011', '.']
+Lancaster Stemming : 
+ ['^', '``', 'an', 'interview', 'with', 'guido', 'van', 'rossum', "''", '.']
+Lancaster Stemming : 
+ ['oreilly.com', '.']
+Lancaster Stemming : 
+ ['retrieved', '24', 'november', '2008', '.']
+Lancaster Stemming : 
+ ['^', '``', 'pypy', 'compatibility', "''", '.']
+Lancaster Stemming : 
+ ['pypy.org', '.']
+Lancaster Stemming : 
+ ['retrieved', '3', 'december', '2012', '.']
+Lancaster Stemming : 
+ ['^', '``', 'speed', 'comparison', 'between', 'cpython', 'and', 'pypy', "''", '.']
+Lancaster Stemming : 
+ ['speed.pypy.org', '.']
+Lancaster Stemming : 
+ ['retrieved', '3', 'december', '2012', '.']
+Lancaster Stemming : 
+ ['^', '``', 'application-level', 'stackless', 'features', '—', 'pypy', '2.0.2', 'documentation', "''", '.']
+Lancaster Stemming : 
+ ['doc.pypy.org', '.']
+Lancaster Stemming : 
+ ['retrieved', '17', 'july', '2013', '.']
+Lancaster Stemming : 
+ ['^', '``', 'plans', 'for', 'optimizing', 'python', "''", '.']
+Lancaster Stemming : 
+ ['google', 'project', 'hosting', '.']
+Lancaster Stemming : 
+ ['google', '.']
+Lancaster Stemming : 
+ ['15', 'december', '2009', '.']
+Lancaster Stemming : 
+ ['retrieved', '24', 'september', '2011', '.']
+Lancaster Stemming : 
+ ['^', '``', 'python', 'on', 'the', 'nokia', 'n900', "''", '.']
+Lancaster Stemming : 
+ ['stochastic', 'geometry', '.']
+Lancaster Stemming : 
+ ['^', '``', 'nuitka', 'home', '|', 'nuitka', 'home', "''", '.']
+Lancaster Stemming : 
+ ['nuitka.net', '.']
+Lancaster Stemming : 
+ ['retrieved', '18', 'august', '2017', '.']
+Lancaster Stemming : 
+ ['^', 'murri', ',', 'riccardo', '(', '2013', ')', '.']
+Lancaster Stemming : 
+ ['performance', 'of', 'python', 'runtimes', 'on', 'a', 'non-numeric', 'scientific', 'code', '.']
+Lancaster Stemming : 
+ ['european', 'conference', 'on', 'python', 'in', 'science', '(', 'euroscipy', ')', '.']
+Lancaster Stemming : 
+ ['arxiv:1404.6388', '.']
+Lancaster Stemming : 
+ ['bibcode:2014arxiv1404.6388m', '.']
+Lancaster Stemming : 
+ ['^', 'a', 'b', 'warsaw', ',', 'barry', ';', 'hylton', ',', 'jeremy', ';', 'goodger', ',', 'david', '(', '13', 'june', '2000', ')', '.']
+Lancaster Stemming : 
+ ['``', 'pep', '1', '–', 'pep', 'purpose', 'and', 'guidelines', "''", '.']
+Lancaster Stemming : 
+ ['python', 'enhancement', 'proposals', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '19', 'april', '2011', '.']
+Lancaster Stemming : 
+ ['^', 'cannon', ',', 'brett', '.']
+Lancaster Stemming : 
+ ['``', 'guido', ',', 'some', 'guys', ',', 'and', 'a', 'mailing', 'list', ':', 'how', 'python', 'is', 'developed', "''", '.']
+Lancaster Stemming : 
+ ['python.org', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['archived', 'from', 'the', 'original', 'on', '1', 'june', '2009', '.']
+Lancaster Stemming : 
+ ['retrieved', '27', 'june', '2009', '.']
+Lancaster Stemming : 
+ ['^', '``', 'python', 'developer', "'s", 'guide', "''", '.']
+Lancaster Stemming : 
+ ['^', 'norwitz', ',', 'neal', '(', '8', 'april', '2002', ')', '.']
+Lancaster Stemming : 
+ ['``', '[', 'python-dev', ']', 'release', 'schedules', '(', 'was', 'stability', '&', 'change', ')', "''", '.']
+Lancaster Stemming : 
+ ['retrieved', '27', 'june', '2009', '.']
+Lancaster Stemming : 
+ ['^', 'aahz', ';', 'baxter', ',', 'anthony', '(', '15', 'march', '2001', ')', '.']
+Lancaster Stemming : 
+ ['``', 'pep', '6', '–', 'bug', 'fix', 'releases', "''", '.']
+Lancaster Stemming : 
+ ['python', 'enhancement', 'proposals', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '27', 'june', '2009', '.']
+Lancaster Stemming : 
+ ['^', '``', 'python', 'buildbot', "''", '.']
+Lancaster Stemming : 
+ ['python', 'developer', '’', 's', 'guide', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '24', 'september', '2011', '.']
+Lancaster Stemming : 
+ ['^', 'debill', ',', 'erik', '.']
+Lancaster Stemming : 
+ ['``', 'module', 'counts', "''", '.']
+Lancaster Stemming : 
+ ['www.modulecounts.com', '.']
+Lancaster Stemming : 
+ ['retrieved', '20', 'august', '2016', '.']
+Lancaster Stemming : 
+ ['^', 'a', 'b', '``', 'whetting', 'your', 'appetite', "''", '.']
+Lancaster Stemming : 
+ ['the', 'python', 'tutorial', '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '20', 'february', '2012', '.']
+Lancaster Stemming : 
+ ['^', '``', 'in', 'python', ',', 'should', 'i', 'use', 'else', 'after', 'a', 'return', 'in', 'an', 'if', 'block', '?', '``', '.']
+Lancaster Stemming : 
+ ['stack', 'overflow', '.']
+Lancaster Stemming : 
+ ['stack', 'exchange', '.']
+Lancaster Stemming : 
+ ['17', 'february', '2011', '.']
+Lancaster Stemming : 
+ ['retrieved', '6', 'may', '2011', '.']
+Lancaster Stemming : 
+ ['^', 'lutz', ',', 'mark', '(', '2009', ')', '.']
+Lancaster Stemming : 
+ ['learning', 'python', ':', 'powerful', 'object-oriented', 'programming', '.']
+Lancaster Stemming : 
+ ["o'reilly", 'media', ',', 'inc.', 'p.', '17', '.']
+Lancaster Stemming : 
+ ['isbn', '9781449379322', '.']
+Lancaster Stemming : 
+ ['^', 'fehily', ',', 'chris', '(', '2002', ')', '.']
+Lancaster Stemming : 
+ ['python', '.']
+Lancaster Stemming : 
+ ['peachpit', 'press', '.']
+Lancaster Stemming : 
+ ['p.', 'xv', '.']
+Lancaster Stemming : 
+ ['isbn', '9780201748840', '.']
+Lancaster Stemming : 
+ ['^', '``', 'tiobe', 'index', "''", '.']
+Lancaster Stemming : 
+ ['tiobe', '-', 'the', 'software', 'quality', 'company', '.']
+Lancaster Stemming : 
+ ['retrieved', '7', 'march', '2017', '.']
+Lancaster Stemming : 
+ ['^', 'tiobe', 'software', 'index', '(', '2015', ')', '.']
+Lancaster Stemming : 
+ ['``', 'tiobe', 'programming', 'community', 'index', 'python', "''", '.']
+Lancaster Stemming : 
+ ['retrieved', '10', 'september', '2015', '.']
+Lancaster Stemming : 
+ ['^', 'prechelt', ',', 'lutz', '(', '14', 'march', '2000', ')', '.']
+Lancaster Stemming : 
+ ['``', 'an', 'empirical', 'comparison', 'of', 'c', ',', 'c++', ',', 'java', ',', 'perl', ',', 'python', ',', 'rexx', ',', 'and', 'tcl', "''", '(', 'pdf', ')', '.']
+Lancaster Stemming : 
+ ['retrieved', '30', 'august', '2013', '.']
+Lancaster Stemming : 
+ ['^', '``', 'quotes', 'about', 'python', "''", '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '8', 'january', '2012', '.']
+Lancaster Stemming : 
+ ['^', '``', 'organizations', 'using', 'python', "''", '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '15', 'january', '2009', '.']
+Lancaster Stemming : 
+ ['^', '``', 'python', ':', 'the', 'holy', 'grail', 'of', 'programming', "''", '.']
+Lancaster Stemming : 
+ ['cern', 'bulletin', '.']
+Lancaster Stemming : 
+ ['cern', 'publications', '(', '31/2006', ')', '.']
+Lancaster Stemming : 
+ ['31', 'july', '2006', '.']
+Lancaster Stemming : 
+ ['retrieved', '11', 'february', '2012', '.']
+Lancaster Stemming : 
+ ['^', 'shafer', ',', 'daniel', 'g.', '(', '17', 'january', '2003', ')', '.']
+Lancaster Stemming : 
+ ['``', 'python', 'streamlines', 'space', 'shuttle', 'mission', 'design', "''", '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '24', 'november', '2008', '.']
+Lancaster Stemming : 
+ ['^', '``', 'tornado', ':', 'facebook', "'s", 'real-time', 'web', 'framework', 'for', 'python', '-', 'facebook', 'for', 'developers', "''", '.']
+Lancaster Stemming : 
+ ['facebook', 'for', 'developers', '.']
+Lancaster Stemming : 
+ ['retrieved', '2018-06-19', '.']
+Lancaster Stemming : 
+ ['^', '``', 'how', 'we', 'use', 'python', 'at', 'spotify', "''", '.']
+Lancaster Stemming : 
+ ['spotify', 'labs', '.']
+Lancaster Stemming : 
+ ['retrieved', '2018-07-25', '.']
+Lancaster Stemming : 
+ ['^', 'fortenberry', ',', 'tim', '(', '17', 'january', '2003', ')', '.']
+Lancaster Stemming : 
+ ['``', 'industrial', 'light', '&', 'magic', 'runs', 'on', 'python', "''", '.']
+Lancaster Stemming : 
+ ['python', 'software', 'foundation', '.']
+Lancaster Stemming : 
+ ['retrieved', '11', 'february', '2012', '.']
+Lancaster Stemming : 
+ ['^', 'taft', ',', 'darryl', 'k.', '(', '5', 'march', '2007', ')', '.']
+Lancaster Stemming : 
+ ['``', 'python', 'slithers', 'into', 'systems', "''", '.']
+Lancaster Stemming : 
+ ['eweek.com', '.']
+Lancaster Stemming : 
+ ['ziff', 'davis', 'holdings', '.']
+Lancaster Stemming : 
+ ['retrieved', '24', 'september', '2011', '.']
+Lancaster Stemming : 
+ ['^', '``', 'usage', 'statistics', 'and', 'market', 'share', 'of', 'python', 'for', 'websites', "''", '.']
+Lancaster Stemming : 
+ ['2012', '.']
+Lancaster Stemming : 
+ ['retrieved', '18', 'december', '2012', '.']
+Lancaster Stemming : 
+ ['^', 'oliphant', ',', 'travis', '(', '2007', ')', '.']
+Lancaster Stemming : 
+ ['``', 'python', 'for', 'scientific', 'computing', "''", '.']
+Lancaster Stemming : 
+ ['computing', 'in', 'science', 'and', 'engineering', '.']
+Lancaster Stemming : 
+ ['^', 'millman', ',', 'k.', 'jarrod', ';', 'aivazis', ',', 'michael', '(', '2011', ')', '.']
+Lancaster Stemming : 
+ ['``', 'python', 'for', 'scientists', 'and', 'engineers', "''", '.']
+Lancaster Stemming : 
+ ['computing', 'in', 'science', 'and', 'engineering', '.']
+Lancaster Stemming : 
+ ['13', '(', '2', ')', ':', '9–12', '.']
+Lancaster Stemming : 
+ ['^', '``', 'installers', 'for', 'gimp', 'for', 'windows', '-', 'frequently', 'asked', 'questions', "''", '.']
+Lancaster Stemming : 
+ ['26', 'july', '2013', '.']
+Lancaster Stemming : 
+ ['archived', 'from', 'the', 'original', 'on', '17', 'july', '2013', '.']
+Lancaster Stemming : 
+ ['retrieved', '26', 'july', '2013', '.']
+Lancaster Stemming : 
+ ['^', '``', 'jasc', 'psp9components', "''", '.']
+Lancaster Stemming : 
+ ['archived', 'from', 'the', 'original', 'on', '19', 'march', '2008', '.']
+Lancaster Stemming : 
+ ['^', '``', 'about', 'getting', 'started', 'with', 'writing', 'geoprocessing', 'scripts', "''", '.']
+Lancaster Stemming : 
+ ['arcgis', 'desktop', 'help', '9.2', '.']
+Lancaster Stemming : 
+ ['environmental', 'systems', 'research', 'institute', '.']
+Lancaster Stemming : 
+ ['17', 'november', '2006', '.']
+Lancaster Stemming : 
+ ['retrieved', '11', 'february', '2012', '.']
+Lancaster Stemming : 
+ ['^', 'ccp', 'porkbelly', '(', '24', 'august', '2010', ')', '.']
+Lancaster Stemming : 
+ ['``', 'stackless', 'python', '2.7', "''", '.']
+Lancaster Stemming : 
+ ['eve', 'community', 'dev', 'blogs', '.']
+Lancaster Stemming : 
+ ['ccp', 'games', '.']
+Lancaster Stemming : 
+ ['as', 'you', 'may', 'know', ',', 'eve', 'has', 'at', 'its', 'core', 'the', 'programming', 'language', 'known', 'as', 'stackless', 'python', '.']
+Lancaster Stemming : 
+ ['^', 'caudill', ',', 'barry', '(', '20', 'september', '2005', ')', '.']
+Lancaster Stemming : 
+ ['``', 'modding', 'sid', 'meier', "'s", 'civilization', 'iv', "''", '.']
+Lancaster Stemming : 
+ ['sid', 'meier', "'s", 'civilization', 'iv', 'developer', 'blog', '.']
+Lancaster Stemming : 
+ ['firaxis', 'games', '.']
+Lancaster Stemming : 
+ ['archived', 'from', 'the', 'original', 'on', '11', 'august', '2010.', 'we', 'created', 'three', 'levels', 'of', 'tools', '...']
+Lancaster Stemming : 
+ ['the', 'next', 'level', 'offers', 'python', 'and', 'xml', 'support', ',', 'letting', 'modders', 'with', 'more', 'experience', 'manipulate', 'the', 'game', 'world', 'and', 'everything', 'in', 'it', '.']
+Lancaster Stemming : 
+ ['^', '``', 'python', 'language', 'guide', '(', 'v1.0', ')', "''", '.']
+Lancaster Stemming : 
+ ['google', 'documents', 'list', 'data', 'api', 'v1.0', '.']
+Lancaster Stemming : 
+ ['google', '.']
+Lancaster Stemming : 
+ ['archived', 'from', 'the', 'original', 'on', '11', 'august', '2010', '.']
+Lancaster Stemming : 
+ ['^', '``', 'python', '-', 'best', 'programming', 'language', 'for', 'algorithmic', 'trading', 'systems', "''", '.']
+Lancaster Stemming : 
+ ['9', 'march', '2016', '.']
+Lancaster Stemming : 
+ ['retrieved', '3', 'october', '2016', '.']
+Lancaster Stemming : 
+ ['^', '``', 'trading', 'with', 'interactive', 'brokers', 'using', 'python', ':', 'an', 'ibpy', 'tutorial', "''", '.']
+Lancaster Stemming : 
+ ['19', 'september', '2016', '.']
+Lancaster Stemming : 
+ ['retrieved', '3', 'october', '2016', '.']
+Lancaster Stemming : 
+ ['^', '``', 'python', 'for', 'artificial', 'intelligence', "''", '.']
+Lancaster Stemming : 
+ ['wiki.python.org', '.']
+Lancaster Stemming : 
+ ['19', 'july', '2012', '.']
+Lancaster Stemming : 
+ ['archived', 'from', 'the', 'original', 'on', '1', 'november', '2012', '.']
+Lancaster Stemming : 
+ ['retrieved', '3', 'december', '2012', '.']
+Lancaster Stemming : 
+ ['^', 'paine', ',', 'jocelyn', ',', 'ed', '.']
+Lancaster Stemming : 
+ ['(', 'august', '2005', ')', '.']
+Lancaster Stemming : 
+ ['``', 'ai', 'in', 'python', "''", '.']
+Lancaster Stemming : 
+ ['ai', 'expert', 'newsletter', '.']
+Lancaster Stemming : 
+ ['amzi', '!', '.']
+Lancaster Stemming : 
+ ['retrieved', '11', 'february', '2012', '.']
+Lancaster Stemming : 
+ ['^', '``', 'pyaiml', '0.8.5', ':', 'python', 'package', 'index', "''", '.']
+Lancaster Stemming : 
+ ['pypi.python.org', '.']
+Lancaster Stemming : 
+ ['retrieved', '17', 'july', '2013', '.']
+Lancaster Stemming : 
+ ['^', 'russell', ',', 'stuart', 'j', '.']
+Lancaster Stemming : 
+ ['&', 'norvig', ',', 'peter', '(', '2009', ')', '.']
+Lancaster Stemming : 
+ ['artificial', 'intelligence', ':', 'a', 'modern', 'approach', '(', '3rd', 'ed', '.', ')', '.']
+Lancaster Stemming : 
+ ['upper', 'saddle', 'river', ',', 'nj', ':', 'prentice', 'hall', '.']
+Lancaster Stemming : 
+ ['p.', '1062', '.']
+Lancaster Stemming : 
+ ['isbn', '978-0-13-604259-4', '.']
+Lancaster Stemming : 
+ ['retrieved', '11', 'february', '2012', '.']
+Lancaster Stemming : 
+ ['^', '``', 'natural', 'language', 'toolkit', "''", '.']
+Lancaster Stemming : 
+ ['^', '``', 'immunity', ':', 'knowing', 'you', "'re", 'secure', "''", '.']
+Lancaster Stemming : 
+ ['archived', 'from', 'the', 'original', 'on', '16', 'february', '2009', '.']
+Lancaster Stemming : 
+ ['^', '``', 'corelabs', 'site', "''", '.']
+Lancaster Stemming : 
+ ['^', '``', 'what', 'is', 'sugar', '?', '``', '.']
+Lancaster Stemming : 
+ ['sugar', 'labs', '.']
+Lancaster Stemming : 
+ ['retrieved', '11', 'february', '2012', '.']
+Lancaster Stemming : 
+ ['^', '``', '4.0', 'new', 'features', 'and', 'fixes', "''", '.']
+Lancaster Stemming : 
+ ['libreoffice.org', '.']
+Lancaster Stemming : 
+ ['the', 'document', 'foundation', '.']
+Lancaster Stemming : 
+ ['2013', '.']
+Lancaster Stemming : 
+ ['retrieved', '25', 'february', '2013', '.']
+Lancaster Stemming : 
+ ['^', '``', 'gotchas', 'for', 'python', 'users', "''", '.']
+Lancaster Stemming : 
+ ['boo.codehaus.org', '.']
+Lancaster Stemming : 
+ ['codehaus', 'foundation', '.']
+Lancaster Stemming : 
+ ['archived', 'from', 'the', 'original', 'on', '11', 'december', '2008', '.']
+Lancaster Stemming : 
+ ['retrieved', '24', 'november', '2008', '.']
+Lancaster Stemming : 
+ ['^', 'esterbrook', ',', 'charles', '.']
+Lancaster Stemming : 
+ ['``', 'acknowledgements', "''", '.']
+Lancaster Stemming : 
+ ['cobra-language.com', '.']
+Lancaster Stemming : 
+ ['cobra', 'language', '.']
+Lancaster Stemming : 
+ ['retrieved', '7', 'april', '2010', '.']
+Lancaster Stemming : 
+ ['^', 'esterbrook', ',', 'charles', '.']
+Lancaster Stemming : 
+ ['``', 'comparison', 'to', 'python', "''", '.']
+Lancaster Stemming : 
+ ['cobra-language.com', '.']
+Lancaster Stemming : 
+ ['cobra', 'language', '.']
+Lancaster Stemming : 
+ ['retrieved', '7', 'april', '2010', '.']
+Lancaster Stemming : 
+ ['^', '``', 'proposals', ':', 'iterators', 'and', 'generators', '[', 'es4', 'wiki', ']', "''", '.']
+Lancaster Stemming : 
+ ['wiki.ecmascript.org', '.']
+Lancaster Stemming : 
+ ['archived', 'from', 'the', 'original', 'on', '20', 'october', '2007', '.']
+Lancaster Stemming : 
+ ['retrieved', '24', 'november', '2008', '.']
+Lancaster Stemming : 
+ ['^', 'kincaid', ',', 'jason', '(', '10', 'november', '2009', ')', '.']
+Lancaster Stemming : 
+ ['``', 'google', "'s", 'go', ':', 'a', 'new', 'programming', 'language', 'that', "'s", 'python', 'meets', 'c++', "''", '.']
+Lancaster Stemming : 
+ ['techcrunch', '.']
+Lancaster Stemming : 
+ ['retrieved', '29', 'january', '2010', '.']
+Lancaster Stemming : 
+ ['^', 'strachan', ',', 'james', '(', '29', 'august', '2003', ')', '.']
+Lancaster Stemming : 
+ ['``', 'groovy', '–', 'the', 'birth', 'of', 'a', 'new', 'dynamic', 'language', 'for', 'the', 'java', 'platform', "''", '.']
+Lancaster Stemming : 
+ ['^', '``', 'working', 'with', 'the', 'command', 'line', 'compiler', '-', 'kotlin', 'programming', 'language', "''", '.']
+Lancaster Stemming : 
+ ['kotlin', '.']
+Lancaster Stemming : 
+ ['retrieved', '12', 'march', '2018', '.']
+Lancaster Stemming : 
+ ['^', '``', 'an', 'interview', 'with', 'the', 'creator', 'of', 'ruby', "''", '.']
+Lancaster Stemming : 
+ ['linuxdevcenter.com', '.']
+Lancaster Stemming : 
+ ['retrieved', '3', 'december', '2012', '.']
+Lancaster Stemming : 
+ ['^', 'lattner', ',', 'chris', '(', '3', 'june', '2014', ')', '.']
+Lancaster Stemming : 
+ ['``', 'chris', 'lattner', "'s", 'homepage', "''", '.']
+Lancaster Stemming : 
+ ['chris', 'lattner', '.']
+Lancaster Stemming : 
+ ['retrieved', '3', 'june', '2014', '.']
+Lancaster Stemming : 
+ ['i', 'started', 'work', 'on', 'the', 'swift', 'programming', 'language', 'in', 'july', 'of', '2010', '.']
+Lancaster Stemming : 
+ ['i', 'implemented', 'much', 'of', 'the', 'basic', 'language', 'structure', ',', 'with', 'only', 'a', 'few', 'people', 'knowing', 'of', 'its', 'existence', '.']
+Lancaster Stemming : 
+ ['a', 'few', 'other', '(', 'amazing', ')', 'people', 'started', 'contributing', 'in', 'earnest', 'late', 'in', '2011', ',', 'and', 'it', 'became', 'a', 'major', 'focus', 'for', 'the', 'apple', 'developer', 'tools', 'group', 'in', 'july', '2013', '[', '...', ']', 'drawing', 'ideas', 'from', 'objective-c', ',', 'rust', ',', 'haskell', ',', 'ruby', ',', 'python', ',', 'c', '#', ',', 'clu', ',', 'and', 'far', 'too', 'many', 'others', 'to', 'list', '.']
+Lancaster Stemming : 
+ ['^', 'kupries', ',', 'andreas', ';', 'fellows', ',', 'donal', 'k.', '(', '14', 'september', '2000', ')', '.']
+Lancaster Stemming : 
+ ['``', 'tip', '#', '3', ':', 'tip', 'format', "''", '.']
+Lancaster Stemming : 
+ ['tcl.tk', '.']
+Lancaster Stemming : 
+ ['tcl', 'developer', 'xchange', '.']
+Lancaster Stemming : 
+ ['retrieved', '24', 'november', '2008', '.']
+Lancaster Stemming : 
+ ['^', 'gustafsson', ',', 'per', ';', 'niskanen', ',', 'raimo', '(', '29', 'january', '2007', ')', '.']
+Lancaster Stemming : 
+ ['``', 'eep', '1', ':', 'eep', 'purpose', 'and', 'guidelines', "''", '.']
+Lancaster Stemming : 
+ ['erlang.org', '.']
+Lancaster Stemming : 
+ ['retrieved', '19', 'april', '2011', '.']
+Lancaster Stemming : 
+ ['^', '``', 'tiobe', 'programming', 'community', 'index', 'for', 'march', '2012', "''", '.']
+Lancaster Stemming : 
+ ['tiobe', 'software', '.']
+Lancaster Stemming : 
+ ['march', '2012', '.']
+Lancaster Stemming : 
+ ['retrieved', '25', 'march', '2012', '.']
+Lancaster Stemming : 
+ ['further', 'reading', 'downey', ',', 'allen', 'b', '.']
+Lancaster Stemming : 
+ ['(', 'may', '2012', ')', '.']
+Lancaster Stemming : 
+ ['think', 'python', ':', 'how', 'to', 'think', 'like', 'a', 'computer', 'scientist', '(', 'version', '1.6.6', 'ed', '.', ')', '.']
+Lancaster Stemming : 
+ ['isbn', '978-0-521-72596-5', '.']
+Lancaster Stemming : 
+ ['hamilton', ',', 'naomi', '(', '5', 'august', '2008', ')', '.']
+Lancaster Stemming : 
+ ['``', 'the', 'a-z', 'of', 'programming', 'languages', ':', 'python', "''", '.']
+Lancaster Stemming : 
+ ['computerworld', '.']
+Lancaster Stemming : 
+ ['archived', 'from', 'the', 'original', 'on', '29', 'december', '2008', '.']
+Lancaster Stemming : 
+ ['retrieved', '31', 'march', '2010', '.']
+Lancaster Stemming : 
+ ['lutz', ',', 'mark', '(', '2013', ')', '.']
+Lancaster Stemming : 
+ ['learning', 'python', '(', '5th', 'ed', '.', ')', '.']
+Lancaster Stemming : 
+ ["o'reilly", 'media', '.']
+Lancaster Stemming : 
+ ['isbn', '978-0-596-15806-4', '.']
+Lancaster Stemming : 
+ ['pilgrim', ',', 'mark', '(', '2004', ')', '.']
+Lancaster Stemming : 
+ ['dive', 'into', 'python', '.']
+Lancaster Stemming : 
+ ['apress', '.']
+Lancaster Stemming : 
+ ['isbn', '978-1-59059-356-1', '.']
+Lancaster Stemming : 
+ ['pilgrim', ',', 'mark', '(', '2009', ')', '.']
+Lancaster Stemming : 
+ ['dive', 'into', 'python', '3', '.']
+Lancaster Stemming : 
+ ['apress', '.']
+Lancaster Stemming : 
+ ['isbn', '978-1-4302-2415-0', '.']
+Lancaster Stemming : 
+ ['archived', 'from', 'the', 'original', 'on', '2011-10-17', '.']
+Lancaster Stemming : 
+ ['summerfield', ',', 'mark', '(', '2009', ')', '.']
+Lancaster Stemming : 
+ ['programming', 'in', 'python', '3', '(', '2nd', 'ed', '.', ')', '.']
+Lancaster Stemming : 
+ ['addison-wesley', 'professional', '.']
+Lancaster Stemming : 
+ ['isbn', '978-0-321-68056-3', '.']
+Lancaster Stemming : 
+ ['external', 'links', 'find', 'more', 'aboutpython', '(', 'programming', 'language', ')', 'at', 'wikipedia', "'s", 'sister', 'projects', 'media', 'from', 'wikimedia', 'commons', 'quotations', 'from', 'wikiquote', 'textbooks', 'from', 'wikibooks', 'learning', 'resources', 'from', 'wikiversity', 'official', 'website', 'python', 'at', 'curlie', '(', 'based', 'on', 'dmoz', ')', 'vteprogramming', 'languages', 'comparison', 'timeline', 'history', 'apl', 'assembly', 'basic', 'c', 'c++', 'c', '#', 'cobol', 'fortran', 'go', 'groovy', 'haskell', 'java', 'javascript', '(', 'js', ')', 'kotlin', 'lisp', 'lua', 'objective-c', 'pascal', 'perl', 'php', 'python', 'ruby', 'rust', 'shell', 'smalltalk', 'swift', 'visual', 'basic', '.net', '(', 'vb.net', ')', 'more', '...', 'category', 'lists', 'alphabetical', 'categorical', 'generational', 'non-english-based', 'vtepythonimplementations', 'circuitpython', 'clpython', 'cpython', 'cython', 'micropython', 'numba', 'ironpython', 'jython', 'psyco', 'pypy', 'python', 'for', 's60', 'shed', 'skin', 'stackless', 'python', 'unladen', 'swallow', 'more', '...', 'ide', 'boa', 'eric', 'python', 'ide', 'idle', 'pycharm', 'pydev', 'spe', 'ninja-ide', 'more', '...']
+Lancaster Stemming : 
+ ['topics', 'wsgi', 'software', '(', 'list', ')', 'python', 'software', 'foundation', 'pycon', 'vtepython', 'web', 'frameworks', 'bluebream', 'bottle', 'cherrypy', 'django', 'flask', 'grok', 'nagare', 'nevow', 'pyjs', 'pylons', 'pyramid', 'quixote', 'spyce', 'tactic', 'tornado', 'turbogears', 'twistedweb', 'webware', 'web2py', 'zope', '2', 'more', '...', 'vtefree', 'and', 'open-source', 'softwaregeneral', 'alternative', 'terms', 'for', 'free', 'software', 'comparison', 'of', 'open-source', 'and', 'closed-source', 'software', 'comparison', 'of', 'source', 'code', 'hosting', 'facilities', 'free', 'software', 'free', 'software', 'project', 'directories', 'gratis', 'versus', 'libre', 'long-term', 'support', 'open-source', 'software', 'open-source', 'software', 'development', 'outline', 'softwarepackages', 'audio', 'bioinformatics', 'codecs', 'collaboration', 'configuration', 'management', 'device', 'drivers', 'graphics', 'wireless', 'geophysics', 'health', 'mathematics', 'operating', 'systems', 'programming', 'languages', 'routing', 'statistics', 'television', 'video', 'games', 'web', 'applications', 'content', 'management', 'systems', 'e-commerce', 'word', 'processors', 'android', 'apps', 'ios', 'apps', 'commercial', 'trademarked', 'formerly', 'proprietary', 'community', 'free', 'software', 'movement', 'history', 'open-source', 'software', 'movement', 'organizations', 'events', 'licenses', 'afl', 'apache', 'apsl', 'artistic', 'beerware', 'boost', 'bsd', 'cc0', 'cddl', 'epl', 'free', 'software', 'foundation', 'gnu', 'gpl', 'gnu', 'lgpl', 'isc', 'mit', 'mpl', 'ms-pl/rl', 'python', 'python', 'software', 'foundation', 'license', 'sleepycat', 'unlicense', 'wtfpl', 'zlib', 'types', 'and', 'standards', 'comparison', 'of', 'free', 'and', 'open-source', 'software', 'licenses', 'contributor', 'license', 'agreement', 'copyleft', 'debian', 'free', 'software', 'guidelines', 'definition', 'of', 'free', 'cultural', 'works', 'free', 'license', 'the', 'free', 'software', 'definition', 'the', 'open', 'source', 'definition', 'open-source', 'license', 'permissive', 'software', 'licence', 'public', 'domain', 'viral', 'license', 'challenges', 'binary', 'blob', 'digital', 'rights', 'management', 'hardware', 'restrictions', 'license', 'proliferation', 'mozilla', 'software', 'rebranding', 'proprietary', 'software', 'sco/linux', 'controversies', 'secure', 'boot', 'software', 'patents', 'software', 'security', 'trusted', 'computing', 'related', 'topics', 'forking', 'gnu', 'manifesto', 'microsoft', 'open', 'specification', 'promise', 'open-core', 'model', 'open-source', 'hardware', 'shared', 'source', 'initiative', 'source-available', 'software', 'the', 'cathedral', 'and', 'the', 'bazaar', 'revolution', 'os', 'book', 'category', 'commons', 'portal', 'authority', 'control', 'bnf', ':', 'cb13560465c', '(', 'data', ')', 'gnd', ':', '4434275-5', 'lccn', ':', 'sh96008834', 'sudoc', ':', '051626225', 'retrieved', 'from', '``', 'https', ':', '//en.wikipedia.org/w/index.php', '?', 'title=python_', '(', 'programming_language', ')', '&', 'oldid=861636160', "''", 'categories', ':', 'programming', 'languagesclass-based', 'programming', 'languagescomputational', 'notebookcomputer', 'science', 'in', 'the', 'netherlandscross-platform', 'free', 'softwaredutch', 'inventionsdynamically', 'typed', 'programming', 'languageseducational', 'programming', 'languageshigh-level', 'programming', 'languagesinformation', 'technology', 'in', 'the', 'netherlandsobject-oriented', 'programming', 'languagesprogramming', 'languages', 'created', 'in', '1991python', '(', 'programming', 'language', ')', 'scripting', 'languagestext-oriented', 'programming', 'languagescross-platform', 'softwarehidden', 'categories', ':', 'cs1', 'errors', ':', 'external', 'linkswikipedia', 'semi-protected', 'pagesall', 'articles', 'with', 'unsourced', 'statementsarticles', 'with', 'unsourced', 'statements', 'from', 'october', '2017wikipedia', 'articles', 'needing', 'clarification', 'from', 'may', '2018articles', 'with', 'unsourced', 'statements', 'from', 'may', '2018articles', 'containing', 'potentially', 'dated', 'statements', 'from', 'march', '2018all', 'articles', 'containing', 'potentially', 'dated', 'statementsarticles', 'containing', 'potentially', 'dated', 'statements', 'from', 'august', '2016articles', 'containing', 'potentially', 'dated', 'statements', 'from', 'january', '2018articles', 'with', 'curlie', 'linkswikipedia', 'articles', 'with', 'bnf', 'identifierswikipedia', 'articles', 'with', 'gnd', 'identifierswikipedia', 'articles', 'with', 'lccn', 'identifierswikipedia', 'articles', 'with', 'sudoc', 'identifiersgood', 'articlesuse', 'dmy', 'dates', 'from', 'august', '2015', 'navigation', 'menu', 'personal', 'tools', 'not', 'logged', 'intalkcontributionscreate', 'accountlog', 'in', 'namespaces', 'articletalk', 'variants', 'views', 'readview', 'sourceview', 'history', 'more', 'search', 'navigation', 'main', 'pagecontentsfeatured', 'contentcurrent', 'eventsrandom', 'articledonate', 'to', 'wikipediawikipedia', 'store', 'interaction', 'helpabout', 'wikipediacommunity', 'portalrecent', 'changescontact', 'page', 'tools', 'what', 'links', 'hererelated', 'changesupload', 'filespecial', 'pagespermanent', 'linkpage', 'informationwikidata', 'itemcite', 'this', 'page', 'print/export', 'create', 'a', 'bookdownload', 'as', 'pdfprintable', 'version', 'in', 'other', 'projects', 'wikimedia', 'commonswikibookswikiquotewikiversity', 'languages', 'afrikaansalemannischالعربيةaragonésঅসমীয়াasturianuazərbaycancaتۆرکجهবাংলাbân-lâm-gúбеларускаябългарскиbosanskicatalàcebuanočeštinadanskdeutscheestiελληνικάespañolesperantoeuskaraفارسیfrançaisgalegoગુજરાતી한국어հայերենहिन्दीhrvatskibahasa', 'indonesiainterlinguaíslenskaitalianoעבריתქართულიқазақшакыргызчаlatinalatviešulietuviųla', '.lojban.lumbaartmagyarмакедонскиമലയാളംमराठीbahasa', 'melayuмонголမြန်မာဘာသာnederlandsनेपाली日本語norsknorsk', 'nynorskଓଡ଼ିଆoʻzbekcha/ўзбекчаپنجابیភាសាខ្មែរplattdüütschpolskiportuguêsromânăрусскийscotsshqipසිංහලsimple', 'englishslovenčinaslovenščinaکوردیсрпски', '/', 'srpskisrpskohrvatski', '/', 'српскохрватскиsuomisvenskatagalogதமிழ்తెలుగుไทยтоҷикӣtürkçeᨅᨔ', 'ᨕᨘᨁᨗукраїнськаاردوtiếng', 'việt吴语粵語中文', 'edit', 'links', 'this', 'page', 'was', 'last', 'edited', 'on', '28', 'september', '2018', ',', 'at', '21:33', '(', 'utc', ')', '.']
+Lancaster Stemming : 
+ ['text', 'is', 'available', 'under', 'the', 'creative', 'commons', 'attribution-sharealike', 'license', ';', 'additional', 'terms', 'may', 'apply', '.']
+Lancaster Stemming : 
+ ['by', 'using', 'this', 'site', ',', 'you', 'agree', 'to', 'the', 'terms', 'of', 'use', 'and', 'privacy', 'policy', '.']
+Lancaster Stemming : 
+ ['wikipedia®', 'is', 'a', 'registered', 'trademark', 'of', 'the', 'wikimedia', 'foundation', ',', 'inc.', ',', 'a', 'non-profit', 'organization', '.']
+Lancaster Stemming : 
+ ['privacy', 'policy', 'about', 'wikipedia', 'disclaimers', 'contact', 'wikipedia', 'developers', 'cookie', 'statement', 'mobile', 'view']
